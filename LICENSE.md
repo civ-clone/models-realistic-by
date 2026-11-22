@@ -33,9 +33,6 @@ licence, and say that they were changed. A credit you can copy for the whole set
 CC BY 4.0 licenses each author's own rights in their model. It grants nothing in anyone else's designs or trademarks,
 such as those of the real vehicles, aircraft and ships these depict.
 
-The Transport comes from a page that says it "may not be used in datasets for, in the development of, or as inputs to
-generative AI programs".
-
 ## The tools: MIT
 
 `tools/`, `roster.json` (what's built, and how), and the files about the repository (`README.md`, `LICENSE.md`,

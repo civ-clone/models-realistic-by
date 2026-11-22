@@ -13,7 +13,7 @@
   "generated": {
     "work": "Models generated for civ.one",
     "author": "dom111",
-    "url": "https://github.com/dom111",
+    "url": "https://github.com/civ-clone/models-realistic-cc0",
     "licence": {
       "name": "CC0 1.0",
       "url": "https://creativecommons.org/publicdomain/zero/1.0/"
@@ -223,17 +223,6 @@
       },
       "file": "Sketchfab's GLB download (signed in, 1K textures)",
       "sha256": "5de21a1479bcd879545bd5f8830f1dd05a652519c2912ac7c1bd9a232dfe3006"
-    },
-    "transport": {
-      "work": "Liberty ship",
-      "author": "AlanTinka",
-      "url": "https://sketchfab.com/3d-models/liberty-ship-a1db8e8414464c5d8b11383e202fcf26",
-      "licence": {
-        "name": "CC BY 4.0",
-        "url": "https://creativecommons.org/licenses/by/4.0/"
-      },
-      "file": "Sketchfab's GLB download (signed in, 1K textures)",
-      "sha256": "d20e2d2719dd8e6a4175658c36ba5173ca873911d2c44856225ae34e634871ad"
     },
     "destroyer": {
       "work": "Samidare destroyer",
@@ -641,27 +630,6 @@
       "budget": 3500,
       "made": "simplified"
     },
-    "transport": {
-      "units": [
-        "Transport"
-      ],
-      "source": "transport",
-      "cut": {
-        "mode": "rewrap",
-        "tris": 3500,
-        "texture": 1024,
-        "depth": 9
-      },
-      "stage": {
-        "measure": "along",
-        "size": 135,
-        "turn": 0,
-        "draught": 8.5
-      },
-      "scale": 0.002815,
-      "budget": 3500,
-      "made": "rewrapped"
-    },
     "destroyer": {
       "units": [
         "Destroyer"
@@ -819,7 +787,7 @@
           "texture": 256
         }
       },
-      "made": "rigged: its own 72-bone skeleton and 25 animations by its author, CC BY; the hat on the head bone"
+      "made": "simplified; rigged: its own 72-bone skeleton and 25 animations by its author, CC BY; the hat on the head bone"
     }
   }
 }

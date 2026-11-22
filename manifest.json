@@ -31,7 +31,7 @@
   {
    "work": "Models generated for civ.one",
    "author": "dom111",
-   "url": "https://github.com/dom111",
+   "url": "https://github.com/civ-clone/models-realistic-cc0",
    "licence": {
     "name": "CC0 1.0",
     "url": "https://creativecommons.org/publicdomain/zero/1.0/"
@@ -173,15 +173,6 @@
    }
   },
   {
-   "work": "Liberty ship",
-   "author": "AlanTinka",
-   "url": "https://sketchfab.com/3d-models/liberty-ship-a1db8e8414464c5d8b11383e202fcf26",
-   "licence": {
-    "name": "CC BY 4.0",
-    "url": "https://creativecommons.org/licenses/by/4.0/"
-   }
-  },
-  {
    "work": "Samidare destroyer",
    "author": "everlasting17th",
    "url": "https://sketchfab.com/3d-models/samidare-destroyer-b37939147c854e61857f5b248f9efd29",
@@ -261,7 +252,7 @@
   },
   "paratrooper": {
    "file": "models/paratrooper.glb",
-   "sha256": "d7d93ddf2c32423e0bf56f0de6db20746d595a1dd472c484473250948f309755",
+   "sha256": "16987465e2217657e17e5d57c9fd789c5e57bf414ee1522e2e7c24af05b4cc06",
    "extent": {
     "across": [
      -1.6,
@@ -275,14 +266,14 @@
    },
    "triangles": 2499,
    "from": [
-    "https://github.com/dom111",
+    "https://github.com/civ-clone/models-realistic-cc0",
     "https://sketchfab.com/3d-models/army-parachute-af52e08feebc4d94a244692212ac25bb"
    ],
    "made": "generated soldier, rewrapped; the parachute, simplified, over him"
   },
   "fanatic": {
    "file": "models/fanatic.glb",
-   "sha256": "aa9c15465eb5383860586ef7c520d34fcf0918275cc642be6f43f40babdb308f",
+   "sha256": "0747fbf10d3ba52dc15061acf4822d52e01992fe214c5a767f4dff79c7ebe87a",
    "extent": {
     "across": [
      -0.671,
@@ -561,28 +552,6 @@
    ],
    "made": "simplified"
   },
-  "transport": {
-   "file": "models/transport.glb",
-   "scale": 0.002815,
-   "sha256": "c1271e19c25087e92528e0de7d94e2d69b2a50767e1ada7a80726556bac9abc2",
-   "extent": {
-    "across": [
-     -10.116,
-     10.116
-    ],
-    "along": [
-     -67.5,
-     67.5
-    ],
-    "height": 24.224,
-    "draught": 8.5
-   },
-   "triangles": 3405,
-   "from": [
-    "https://sketchfab.com/3d-models/liberty-ship-a1db8e8414464c5d8b11383e202fcf26"
-   ],
-   "made": "rewrapped"
-  },
   "destroyer": {
    "file": "models/destroyer.glb",
    "scale": 0.003423,
@@ -733,7 +702,6 @@
    "Helicopter": "helicopter",
    "StealthFighter": "stealth-fighter",
    "Galleon": "galleon",
-   "Transport": "transport",
    "Destroyer": "destroyer",
    "Cruiser": "cruiser",
    "MissileCruiser": "missile-cruiser",

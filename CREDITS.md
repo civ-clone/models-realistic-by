@@ -4,7 +4,7 @@ Models by the authors listed at https://github.com/civ-clone/models-realistic-by
 
 - "Business Man - Low Polygon game character" by manoeldarochadeoliveira (https://sketchfab.com/3d-models/business-man-low-polygon-game-character-b6f6740f883b4749abac47af0045a9dd), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 - "Top Hat | FREE Download" by Robin Butler (https://sketchfab.com/3d-models/top-hat-free-download-4fdf3ad3c88d4bb58ea7aabb9bfcffae), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- "Models generated for civ.one" by dom111 (https://github.com/dom111), CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)
+- "Models generated for civ.one" by dom111 (https://github.com/civ-clone/models-realistic-cc0), CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)
 - "Army Parachute" by amaraklov (https://sketchfab.com/3d-models/army-parachute-af52e08feebc4d94a244692212ac25bb), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 - "mendicant monk (low poly)" by Götz von Berlichingen (https://sketchfab.com/3d-models/mendicant-monk-low-poly-36e72d20f4354cdc8de26c4aa8ef00bb), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 - "Lit Torch [Free Download]" by scrampunk (https://sketchfab.com/3d-models/lit-torch-free-download-3abbd8a21c1d402495c49b94e6c6a37c), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
@@ -20,7 +20,6 @@ Models by the authors listed at https://github.com/civ-clone/models-realistic-by
 - "Mi-24 Hind" by Duane's Mind (https://sketchfab.com/3d-models/mi-24-hind-004d68143e1a4df88e136dbc0a05f181), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 - "Lockheed F-117 - Nighthawk" by karelkiers (https://sketchfab.com/3d-models/lockheed-f-117-nighthawk-d2c544381f8444ad8628cd3bb0665e29), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 - "Simple Galleon" by Lee Johansson (https://sketchfab.com/3d-models/simple-galleon-1623189576754058b64d0a026f662b9e), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- "Liberty ship" by AlanTinka (https://sketchfab.com/3d-models/liberty-ship-a1db8e8414464c5d8b11383e202fcf26), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 - "Samidare destroyer" by everlasting17th (https://sketchfab.com/3d-models/samidare-destroyer-b37939147c854e61857f5b248f9efd29), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 - "Graf Spee (low poly)" by Götz von Berlichingen (https://sketchfab.com/3d-models/graf-spee-low-poly-0e4575cd053c490491e8eda7ced005e5), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 - "1:1 Low poly US NAVY DDG-51 USS Arleigh Burke." by Yi Tsung Lee (https://sketchfab.com/3d-models/11-low-poly-us-navy-ddg-51-uss-arleigh-burke-17be09c31c6047e4a5969b68c29eba03), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)

@@ -4,9 +4,9 @@ Realistic units for [civ.one](https://civ.one)'s 3D map, adapted from models on 
 [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Wherever they're used, credit the authors as
 [CREDITS.md](CREDITS.md) does.
 
-The set draws 22 unit types, mostly the later ones: Diplomat, Paratroopers, Fanatics, Mech. Inf., Cannon, Artillery,
-Howitzer, Armor, Freight, Nuclear, Cruise Missile, Fighter, Helicopter, Stealth Fighter, Galleon, Transport, Destroyer,
-Cruiser, AEGIS Cruiser, Battleship, Submarine and Carrier.
+The set draws 21 unit types, mostly the later ones: Diplomat, Paratroopers, Fanatics, Mech. Inf., Cannon, Artillery,
+Howitzer, Armor, Freight, Nuclear, Cruise Missile, Fighter, Helicopter, Stealth Fighter, Galleon, Destroyer, Cruiser,
+AEGIS Cruiser, Battleship, Submarine and Carrier.
 
 [models-realistic-cc0](https://github.com/civ-clone/models-realistic-cc0) draws the rest of the realistic units, under
 CC0. Some of these types are drawn by [models-cimpletoon](https://github.com/civ-clone/models-cimpletoon) too.
@@ -15,7 +15,7 @@ civ.one's 3D map draws each type from one set.
 ## What's here
 
 - **`models/*.glb`:** one glTF binary for each model, facing `+z`, with one baked colour texture (JPEG, 512 px for
-  people and 1024 px for the rest), and a second for a prop. Each was cut down to its budget (2,000 triangles for a
+  people and 1024 px for the rest), and a second for a prop. Each was cut down to its budget where it was over (2,000 triangles for a
   person, 2,500 for the Paratroopers with their parachute, 3,000 for a vehicle or gun, 2,500 for an aircraft or
   missile, 3,500 for a ship), and its colour baked into the texture. Each carries its credits in `asset.copyright`,
   and its credits, licence and what was done to it in `asset.extras`.
@@ -47,7 +47,7 @@ civ.one's 3D map draws each type from one set.
     scale where it isn't the set's.
 
   The set's scale draws a 1.8 m person as tall as the other sets' people, 0.168 squares. The 3D map draws units
-  bigger than life, so the rest have scales of their own, matched to models-cimpletoon's sizes: vehicles and guns
+  bigger than life, so the rest have scales of their own, close to models-cimpletoon's sizes: vehicles and guns
   0.20 to 0.27 squares long, aircraft and missiles 0.16 to 0.22 across their longest side, ships 0.30 to 0.45 long.
 - **`tools/`:** the build (`build.py`, with the Blender scripts it runs in `tools/blender/`) and the check CI runs
   (`check.py`).
@@ -79,9 +79,6 @@ The originals:
 
 With Blender 4.5 on the Mac they were made on, a model built again comes out the same file. Another version of
 Blender, or another platform, may cut or bake it a little differently.
-
-**The Transport** comes from a page that says it "may not be used in datasets for, in the development of, or as inputs
-to generative AI programs". Don't pass it, or its file here, to an AI tool.
 
 ## Licence
 
