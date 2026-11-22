@@ -1,0 +1,21 @@
+{
+  "name": "@civ-clone/models-realistic-by",
+  "version": "0.1.0",
+  "description": "Realistic units for civ.one's 3D map, adapted from models by their authors on Sketchfab (CC BY 4.0)",
+  "repository": "https://github.com/civ-clone/models-realistic-by",
+  "author": "dom111 <dom111@users.noreply.github.com>",
+  "license": "(CC-BY-4.0 AND MIT)",
+  "private": true,
+  "files": [
+    "CREDITS.md",
+    "LICENSE.md",
+    "README.md",
+    "manifest.json",
+    "models",
+    "roster.json",
+    "tools"
+  ],
+  "scripts": {
+    "check": "python3 -I tools/check.py"
+  }
+}
