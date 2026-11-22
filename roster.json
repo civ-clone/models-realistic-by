@@ -13,7 +13,7 @@
   "generated": {
     "work": "Models generated for civ.one",
     "author": "dom111",
-    "url": "https://github.com/civ-clone/models-realistic-cc0",
+    "url": "https://github.com/civ-clone/models-realistic-by",
     "licence": {
       "name": "CC0 1.0",
       "url": "https://creativecommons.org/publicdomain/zero/1.0/"
@@ -441,7 +441,7 @@
       "stage": {
         "measure": "along",
         "size": 6,
-        "turn": -135
+        "turn": -130.5
       },
       "scale": 0.04,
       "budget": 3000,

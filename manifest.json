@@ -31,7 +31,7 @@
   {
    "work": "Models generated for civ.one",
    "author": "dom111",
-   "url": "https://github.com/civ-clone/models-realistic-cc0",
+   "url": "https://github.com/civ-clone/models-realistic-by",
    "licence": {
     "name": "CC0 1.0",
     "url": "https://creativecommons.org/publicdomain/zero/1.0/"
@@ -252,7 +252,7 @@
   },
   "paratrooper": {
    "file": "models/paratrooper.glb",
-   "sha256": "16987465e2217657e17e5d57c9fd789c5e57bf414ee1522e2e7c24af05b4cc06",
+   "sha256": "2cf917fa1dd3dfe734647aa14445b67d86d82de3d06646a2f373551cffa0b559",
    "extent": {
     "across": [
      -1.6,
@@ -266,7 +266,7 @@
    },
    "triangles": 2499,
    "from": [
-    "https://github.com/civ-clone/models-realistic-cc0",
+    "https://github.com/civ-clone/models-realistic-by",
     "https://sketchfab.com/3d-models/army-parachute-af52e08feebc4d94a244692212ac25bb"
    ],
    "made": "generated soldier, rewrapped; the parachute, simplified, over him"
@@ -337,17 +337,17 @@
   "artillery": {
    "file": "models/artillery.glb",
    "scale": 0.04,
-   "sha256": "c84876bfeb85f455d765a14a6245253a0535cbe6ecc6c882ac6758eb39ba3425",
+   "sha256": "0e7284a292c9ecf8b7c4f1574ca6570327351243f83d4850fcd603672bd96e14",
    "extent": {
     "across": [
-     -1.027,
-     1.027
+     -1.012,
+     1.012
     ],
     "along": [
      -3.0,
      3.0
     ],
-    "height": 2.032
+    "height": 2.026
    },
    "triangles": 3000,
    "from": [

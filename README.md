@@ -68,8 +68,8 @@ python3 -I tools/build.py --blender /path/to/blender --originals /path/to/origin
 ```
 
 Name models to build only those. Blender runs with its factory settings and with scripts in files turned off, and
-reads the originals only as data. Without `--originals`, `build.py` only writes each model's `asset.extras`, the
-manifest and the credits.
+reads the originals only as data. Without `--originals`, `build.py` only writes each model's `asset.copyright` and
+`asset.extras`, the manifest and the credits.
 
 The originals:
 - **Most:** the copies in [Objaverse](https://huggingface.co/datasets/allenai/objaverse), whose links the roster
@@ -82,8 +82,9 @@ Blender, or another platform, may cut or bake it a little differently.
 
 ## Licence
 
-- **The models and the manifest** (`models/`, `manifest.json`, `CREDITS.md`) are adapted from their authors' models,
-  under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), and my changes are under it too. Credit the authors
+- **The models** (`models/`) are adapted from their authors' models, under
+  [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), and my changes are under it too, as are the manifest and
+  `CREDITS.md`, which describe them. Credit the authors
   wherever they're used, as CREDITS.md does.
 - **The tools and the roster** (`tools/`, `roster.json`) are mine, under the MIT licence.
 

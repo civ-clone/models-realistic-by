@@ -4,7 +4,7 @@ Models by the authors listed at https://github.com/civ-clone/models-realistic-by
 
 - "Business Man - Low Polygon game character" by manoeldarochadeoliveira (https://sketchfab.com/3d-models/business-man-low-polygon-game-character-b6f6740f883b4749abac47af0045a9dd), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 - "Top Hat | FREE Download" by Robin Butler (https://sketchfab.com/3d-models/top-hat-free-download-4fdf3ad3c88d4bb58ea7aabb9bfcffae), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
-- "Models generated for civ.one" by dom111 (https://github.com/civ-clone/models-realistic-cc0), CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)
+- "Models generated for civ.one" by dom111 (https://github.com/civ-clone/models-realistic-by), CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/)
 - "Army Parachute" by amaraklov (https://sketchfab.com/3d-models/army-parachute-af52e08feebc4d94a244692212ac25bb), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 - "mendicant monk (low poly)" by Götz von Berlichingen (https://sketchfab.com/3d-models/mendicant-monk-low-poly-36e72d20f4354cdc8de26c4aa8ef00bb), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 - "Lit Torch [Free Download]" by scrampunk (https://sketchfab.com/3d-models/lit-torch-free-download-3abbd8a21c1d402495c49b94e6c6a37c), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)

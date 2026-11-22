@@ -4,9 +4,10 @@ This repository holds two kinds of work under two licences.
 
 ## The models: CC BY 4.0
 
-`models/`, `manifest.json` and `CREDITS.md` are adapted from models by the authors listed in [CREDITS.md](CREDITS.md)
-and in each file's `asset.extras`, each licensed by its author under the Creative Commons Attribution 4.0 International
-licence: https://creativecommons.org/licenses/by/4.0/
+`models/` are adapted from models by the authors listed in [CREDITS.md](CREDITS.md) and in each file's `asset.extras`,
+each licensed by its author under the Creative Commons Attribution 4.0 International licence:
+https://creativecommons.org/licenses/by/4.0/ . `manifest.json` and `CREDITS.md`, which describe them, are under the
+same licence.
 
 I made these changes, which are under the same licence:
 - **Fewer triangles:** each is cut down, part by part or wrapped in one new surface, to no more than `roster.json`
