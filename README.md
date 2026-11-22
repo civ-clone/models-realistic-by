@@ -1,3 +1,90 @@
 # models-realistic-by
 
-Realistic units for [civ.one](https://civ.one)'s 3D map. The first set is on its way in a pull request.
+Realistic units for [civ.one](https://civ.one)'s 3D map, adapted from models on Sketchfab by their authors, under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Wherever they're used, credit the authors as
+[CREDITS.md](CREDITS.md) does.
+
+The set draws 22 unit types, mostly the later ones: Diplomat, Paratroopers, Fanatics, Mech. Inf., Cannon, Artillery,
+Howitzer, Armor, Freight, Nuclear, Cruise Missile, Fighter, Helicopter, Stealth Fighter, Galleon, Transport, Destroyer,
+Cruiser, AEGIS Cruiser, Battleship, Submarine and Carrier.
+
+[models-realistic-cc0](https://github.com/civ-clone/models-realistic-cc0) draws the rest of the realistic units, under
+CC0. Some of these types are drawn by [models-cimpletoon](https://github.com/civ-clone/models-cimpletoon) too.
+civ.one's 3D map draws each type from one set.
+
+## What's here
+
+- **`models/*.glb`:** one glTF binary for each model, facing `+z`, with one colour texture (JPEG, 512 px for people
+  and 1024 px for the rest). Each was cut down to its budget (2,000 triangles for a person, 2,500 for the Paratroopers
+  with their parachute, 3,000 for a vehicle or gun, 2,500 for an aircraft or missile, 3,500 for a ship), and its colour
+  baked into the texture. Each carries its credits, licence and what was done to it in `asset.extras`.
+- **Put together:** the Diplomat wears a top hat, the Paratroopers hang under a parachute and the Fanatics carry a
+  torch, each from a model of its own. The Paratroopers' soldier I made for civ.one (CC0); the file is CC BY because
+  of its parachute.
+- **Animated:** the Fighter keeps its propeller's animation and the Helicopter its rotors' and wheels', each with its
+  parts as their nodes place them. The rest are one mesh each, standing still.
+- **Standing and floating:** a model stands on its origin, centred across and along, at its real size in metres. A
+  ship floats with its origin at the waterline, its draught under it (`extent.draught`). Aircraft rest on the ground;
+  the 3D map lifts them.
+- **`models/rigged/diplomat.glb`:** not in the manifest. The Diplomat with its own 72-bone skeleton and its author's 25
+  animations (idle, walking, running, talking, sitting, turning, a jump, blinks and mouth shapes), the hat on its head
+  bone. Play an animation: at rest it lies flat.
+- **Not yet:** none has a mask for its owner's colour, as models-0ad and models-cimpletoon have. The Fighter's
+  markings are taken off, but some ships still carry painted names and numbers.
+- **`manifest.json`:** the set, as civ.one's library describes a set of models:
+  - its licence, with the credit to show wherever it's used (`licence.attribution`), and its credits;
+  - the scale it's drawn at, and any model's own where it isn't the set's;
+  - each model's file and its SHA-256, its triangles, how far it reaches (`extent`, in metres), its animations, where
+    it's from and what was done to it;
+  - which unit types each model draws (`names.unit`, by the engine's names for them).
+- **`roster.json`:** what's built, and how:
+  - each source: its page, author and licence, where its file came from and that file's SHA-256;
+  - each model: the unit types it draws, its source, any parts left out, how it's cut (part by part, or wrapped in one
+    new surface), how it's turned and sized, how deep a ship floats, the prop put in and how, its budget, and its
+    scale where it isn't the set's.
+
+  The set's scale draws a 1.8 m person as tall as the other sets' people, 0.168 squares. The 3D map draws units
+  bigger than life, so the rest have scales of their own, matched to models-cimpletoon's sizes: vehicles and guns
+  0.20 to 0.27 squares long, aircraft 0.16 to 0.22, ships 0.30 to 0.45.
+- **`tools/`:** the build (`build.py`, with the Blender scripts it runs in `tools/blender/`) and the check CI runs
+  (`check.py`).
+
+## Building them again
+
+`check.py` needs only Python 3.10 or later:
+
+```bash
+python3 -I tools/check.py
+```
+
+Building the models again needs [Blender](https://www.blender.org) (4.5 was used) and the original files, which
+`roster.json` names by SHA-256. Put them in one folder, then:
+
+```bash
+python3 -I tools/build.py --blender /path/to/blender --originals /path/to/originals
+```
+
+Name models to build only those. Blender runs with its factory settings and with scripts in files turned off, and
+reads the originals only as data. Without `--originals`, `build.py` only writes each model's `asset.extras`, the
+manifest and the credits.
+
+The originals:
+- **Most:** the copies in [Objaverse](https://huggingface.co/datasets/allenai/objaverse), whose links the roster
+  gives.
+- **The rest:** each model's GLB download on Sketchfab (1K textures), which needs a Sketchfab account.
+- **The Paratroopers' soldier:** generated in my Meshy account, and too big to keep here. I've kept it.
+
+With Blender 4.5 on the Mac they were made on, a model built again comes out the same file. Another version of
+Blender, or another platform, may cut or bake it a little differently.
+
+**The Transport** comes from a page that says it "may not be used in datasets for, in the development of, or as inputs
+to generative AI programs". Don't pass it, or its file here, to an AI tool.
+
+## Licence
+
+- **The models and the manifest** (`models/`, `manifest.json`, `CREDITS.md`) are adapted from their authors' models,
+  under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), and my changes are under it too. Credit the authors
+  wherever they're used, as CREDITS.md does.
+- **The tools and the roster** (`tools/`, `roster.json`) are mine, under the MIT licence.
+
+See [LICENSE.md](LICENSE.md).

@@ -1,0 +1,825 @@
+{
+  "set": {
+    "id": "realistic-by",
+    "name": "Realistic: CC BY",
+    "licence": {
+      "name": "CC BY 4.0",
+      "url": "https://creativecommons.org/licenses/by/4.0/",
+      "attribution": "Models by the authors credited in this set, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/): reduced, rebaked, assembled and converted by dom111."
+    }
+  },
+  "date": "22 November 2026",
+  "scale": 0.093333,
+  "generated": {
+    "work": "Models generated for civ.one",
+    "author": "dom111",
+    "url": "https://github.com/dom111",
+    "licence": {
+      "name": "CC0 1.0",
+      "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+    },
+    "note": "Generated from text prompts with Meshy (meshy.ai) on a paid plan, so owned by dom111, and dedicated to the public domain under CC0. Made with AI."
+  },
+  "sources": {
+    "diplomat": {
+      "work": "Business Man - Low Polygon game character",
+      "author": "manoeldarochadeoliveira",
+      "url": "https://sketchfab.com/3d-models/business-man-low-polygon-game-character-b6f6740f883b4749abac47af0045a9dd",
+      "licence": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "file": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-132/b6f6740f883b4749abac47af0045a9dd.glb",
+      "sha256": "bfdad6e685e75d92f5b9c38a635710530a27b5673a6e3d3a1119aca204ba2760"
+    },
+    "hat": {
+      "work": "Top Hat | FREE Download",
+      "author": "Robin Butler",
+      "url": "https://sketchfab.com/3d-models/top-hat-free-download-4fdf3ad3c88d4bb58ea7aabb9bfcffae",
+      "licence": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "file": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-060/4fdf3ad3c88d4bb58ea7aabb9bfcffae.glb",
+      "sha256": "8a31f4a2c130cc1ec0a6b0d999514c84ba663d4fca29053d8f66da102ca25094"
+    },
+    "generated-paratrooper": {
+      "work": "Second World War paratrooper for Paratroopers (generated for civ.one)",
+      "author": "dom111",
+      "url": "https://github.com/dom111",
+      "licence": {
+        "name": "CC0 1.0",
+        "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+      },
+      "note": "Generated with Meshy (meshy.ai) on a paid plan, so mine, and dedicated to the public domain. Made with AI.",
+      "ai": true,
+      "generated": true,
+      "made": "an image from the prompt with Nano Banana, then Meshy 7.1 image to 3D (Ultra 2K, 2K texture)",
+      "prompt": "A realistic Second World War paratrooper, full body, standing in A-pose, seen in a three-quarter front view from slightly to his right, wearing a mottled camouflage jump smock, a rounded steel paratrooper helmet with a chin strap and helmet netting, parachute harness webbing straps over his chest and shoulders, baggy trousers with cargo pockets tucked into brown jump boots, ammunition pouches on a webbing belt, a submachine gun slung across his chest, natural skin tones, no national insignia, no badges, no markings, no text, plain neutral grey background, soft studio lighting, reference image for a 3D model",
+      "file": "the generated GLB, kept by me, not published",
+      "sha256": "d6ec080f9cf3196cb66fceb33bee2a47d62a9aeef58ce4540a2d8bbac74f7d8a"
+    },
+    "parachute": {
+      "work": "Army Parachute",
+      "author": "amaraklov",
+      "url": "https://sketchfab.com/3d-models/army-parachute-af52e08feebc4d94a244692212ac25bb",
+      "licence": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "file": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-030/af52e08feebc4d94a244692212ac25bb.glb",
+      "sha256": "baac2617b55050c605b8f335ed2d4a70085aa3a936c69451b8e781e6db3a5733"
+    },
+    "monk": {
+      "work": "mendicant monk (low poly)",
+      "author": "Götz von Berlichingen",
+      "url": "https://sketchfab.com/3d-models/mendicant-monk-low-poly-36e72d20f4354cdc8de26c4aa8ef00bb",
+      "licence": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "file": "Sketchfab's GLB download (signed in, 1K textures)",
+      "sha256": "6b723dae16c55e5fa462f7e41dc92d7af720acf7bb22e8c21e93efc99a185aca"
+    },
+    "torch": {
+      "work": "Lit Torch [Free Download]",
+      "author": "scrampunk",
+      "url": "https://sketchfab.com/3d-models/lit-torch-free-download-3abbd8a21c1d402495c49b94e6c6a37c",
+      "licence": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "file": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-039/3abbd8a21c1d402495c49b94e6c6a37c.glb",
+      "sha256": "4eeaa5933627798f556286f7ef694caa88e489f7ed8862a54fa3f1851be55bf3"
+    },
+    "mech-inf": {
+      "work": "BTR 80",
+      "author": "Brout",
+      "url": "https://sketchfab.com/3d-models/btr-80-004c8509eb1e4aad8093eba9b4707e79",
+      "licence": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "file": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-054/004c8509eb1e4aad8093eba9b4707e79.glb",
+      "sha256": "b9cdd5e7e0606416ee65386b250ea1f7839d017a4b6de49d9b3c43318d1eea20"
+    },
+    "cannon": {
+      "work": "Canon de Gribeauval",
+      "author": "Lucas Garnier",
+      "url": "https://sketchfab.com/3d-models/canon-de-gribeauval-3cb4f25c33e24f61876c9bbea3eb5933",
+      "licence": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "file": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-094/3cb4f25c33e24f61876c9bbea3eb5933.glb",
+      "sha256": "a5f4abdfbd3e59c8a6710a0db8b6aecd702a8ced37ed11d5f41bf5aa3fda5657"
+    },
+    "artillery": {
+      "work": "WW1 Artillery",
+      "author": "Lukas Bobor",
+      "url": "https://sketchfab.com/3d-models/ww1-artillery-4ee955fda8db4a2ea9e6a5fe7beded21",
+      "licence": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "file": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-022/4ee955fda8db4a2ea9e6a5fe7beded21.glb",
+      "sha256": "d48e7b6d5110125aec275248239b241fdc7710f8814c4f6f9ae7faf801d3cc2e"
+    },
+    "howitzer": {
+      "work": "howitzer 2a65 msta",
+      "author": "fabertibler",
+      "url": "https://sketchfab.com/3d-models/howitzer-2a65-msta-6bd63aac4fc241d0bdacc5e4639ffd0d",
+      "licence": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "file": "Sketchfab's GLB download (signed in, 1K textures)",
+      "sha256": "763c5854f50066745d08ab07997a648f2b8717ff116e984a4ef029ea44beb3ee"
+    },
+    "tank": {
+      "work": "M4 Sherman",
+      "author": "snegi5566",
+      "url": "https://sketchfab.com/3d-models/m4-sherman-06df0fdccda04b97ada8c541508e6fd8",
+      "licence": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "file": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-132/06df0fdccda04b97ada8c541508e6fd8.glb",
+      "sha256": "6c490f5b2f2cccbbaa08381c003785f98724e30cc74698118f8517de5b499386"
+    },
+    "freight": {
+      "work": "Ural 4320",
+      "author": "Brout",
+      "url": "https://sketchfab.com/3d-models/ural-4320-f953c51a5dbc4a15949f4dcc0905c4e8",
+      "licence": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "file": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-143/f953c51a5dbc4a15949f4dcc0905c4e8.glb",
+      "sha256": "0f8969767d6c6c972031c93123a1e8f0b742aba2146f38e01f1cfc97c32e3172"
+    },
+    "nuclear": {
+      "work": "Strategic nuclear missile R-36M (SS-18 Satan)",
+      "author": "Bogdan Kuznetsov",
+      "url": "https://sketchfab.com/3d-models/strategic-nuclear-missile-r-36m-ss-18-satan-de83c0d0a16144efa499b44975740d58",
+      "licence": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "file": "Sketchfab's GLB download (signed in, 1K textures)",
+      "sha256": "9c6e7780884c6b355b5d1a888fa52a765a5d9c7775c92db0046fe10dee18e6cc"
+    },
+    "cruise-missile": {
+      "work": "V-1 Flying Bomb",
+      "author": "Pippa",
+      "url": "https://sketchfab.com/3d-models/v-1-flying-bomb-9b3a58f498784ebfb01612d4a35609a0",
+      "licence": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "file": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-137/9b3a58f498784ebfb01612d4a35609a0.glb",
+      "sha256": "b521fcee4379a91884a77aa6c27546848af55a862cee75bf4705cffdf4bbe0bc"
+    },
+    "fighter": {
+      "work": "F6F Hellcat",
+      "author": "snrnsrk5",
+      "url": "https://sketchfab.com/3d-models/f6f-hellcat-5b0151482fa745d5ade945be7963262e",
+      "licence": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "file": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-045/5b0151482fa745d5ade945be7963262e.glb",
+      "sha256": "e184f207e53bd4c6ef6166860f616859c750e9ad8637a26aa40c490734810835"
+    },
+    "helicopter": {
+      "work": "Mi-24 Hind",
+      "author": "Duane's Mind",
+      "url": "https://sketchfab.com/3d-models/mi-24-hind-004d68143e1a4df88e136dbc0a05f181",
+      "licence": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "file": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-069/004d68143e1a4df88e136dbc0a05f181.glb",
+      "sha256": "041289805cad6ac427a42db8c0029ef08814980c43ade2afa43c2e788309bba4"
+    },
+    "stealth-fighter": {
+      "work": "Lockheed F-117 - Nighthawk",
+      "author": "karelkiers",
+      "url": "https://sketchfab.com/3d-models/lockheed-f-117-nighthawk-d2c544381f8444ad8628cd3bb0665e29",
+      "licence": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "file": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-030/d2c544381f8444ad8628cd3bb0665e29.glb",
+      "sha256": "d2de6da4e5a8e060e7cd9fd34578884d1e859dc852a1d343f10056d12122b36d"
+    },
+    "galleon": {
+      "work": "Simple Galleon",
+      "author": "Lee Johansson",
+      "url": "https://sketchfab.com/3d-models/simple-galleon-1623189576754058b64d0a026f662b9e",
+      "licence": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "file": "Sketchfab's GLB download (signed in, 1K textures)",
+      "sha256": "5de21a1479bcd879545bd5f8830f1dd05a652519c2912ac7c1bd9a232dfe3006"
+    },
+    "transport": {
+      "work": "Liberty ship",
+      "author": "AlanTinka",
+      "url": "https://sketchfab.com/3d-models/liberty-ship-a1db8e8414464c5d8b11383e202fcf26",
+      "licence": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "file": "Sketchfab's GLB download (signed in, 1K textures)",
+      "sha256": "d20e2d2719dd8e6a4175658c36ba5173ca873911d2c44856225ae34e634871ad"
+    },
+    "destroyer": {
+      "work": "Samidare destroyer",
+      "author": "everlasting17th",
+      "url": "https://sketchfab.com/3d-models/samidare-destroyer-b37939147c854e61857f5b248f9efd29",
+      "licence": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "file": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-152/b37939147c854e61857f5b248f9efd29.glb",
+      "sha256": "b5f77c0b2b87beef1061075a08a722e01cf9f0f7712017fa369524989b152788"
+    },
+    "cruiser": {
+      "work": "Graf Spee (low poly)",
+      "author": "Götz von Berlichingen",
+      "url": "https://sketchfab.com/3d-models/graf-spee-low-poly-0e4575cd053c490491e8eda7ced005e5",
+      "licence": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "file": "Sketchfab's GLB download (signed in, 1K textures)",
+      "sha256": "4fbb0be7efab27184e96d42de00c7511a4091b0e0b544dd3bbf4e6c79dc45b24"
+    },
+    "missile-cruiser": {
+      "work": "1:1 Low poly US NAVY DDG-51 USS Arleigh Burke.",
+      "author": "Yi Tsung Lee",
+      "url": "https://sketchfab.com/3d-models/11-low-poly-us-navy-ddg-51-uss-arleigh-burke-17be09c31c6047e4a5969b68c29eba03",
+      "licence": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "file": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-144/17be09c31c6047e4a5969b68c29eba03.glb",
+      "sha256": "3c145961043ecae949818ab30fcf3973ec9f01e0bac045305d8a7d5e1094bab7"
+    },
+    "battleship": {
+      "work": "Bismark battleship",
+      "author": "everlasting17th",
+      "url": "https://sketchfab.com/3d-models/bismark-battleship-dfc8b1756ce3419287a9e43a9b9dd21c",
+      "licence": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "file": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-122/dfc8b1756ce3419287a9e43a9b9dd21c.glb",
+      "sha256": "6fe5f73e1c0730c51f27b7df0dddb8d6be9b155ca378c409a4ba877408d94fcd"
+    },
+    "submarine": {
+      "work": "KoreaNavy -Jang bogo- Class(Type209) Submarine",
+      "author": "Artech",
+      "url": "https://sketchfab.com/3d-models/koreanavy-jang-bogo-classtype209-submarine-abd6a2cd5fe14f6baa16e64c2d20f317",
+      "licence": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "file": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-057/abd6a2cd5fe14f6baa16e64c2d20f317.glb",
+      "sha256": "b9d3e8830d62b5447348796b7f37671ffbe3369f372017d6a5e3ee987bfc08a5"
+    },
+    "carrier": {
+      "work": "Gerald Ford Aircraft Carrier",
+      "author": "Usman Zia",
+      "url": "https://sketchfab.com/3d-models/gerald-ford-aircraft-carrier-324120997379466caad30917911bcd8b",
+      "licence": {
+        "name": "CC BY 4.0",
+        "url": "https://creativecommons.org/licenses/by/4.0/"
+      },
+      "file": "https://huggingface.co/datasets/allenai/objaverse/resolve/main/glbs/000-113/324120997379466caad30917911bcd8b.glb",
+      "sha256": "9baf4026165456af56eea3fd50fa52da356dde0266fe6d7249ef7f6d675ed503"
+    }
+  },
+  "models": {
+    "diplomat": {
+      "units": [
+        "Diplomat"
+      ],
+      "source": "diplomat",
+      "cut": {
+        "mode": "parts",
+        "tris": 1700,
+        "texture": 512
+      },
+      "stage": {
+        "measure": "height",
+        "size": 1.8,
+        "turn": 0,
+        "pose": [
+          "Rig|idle",
+          0
+        ]
+      },
+      "prop": {
+        "mode": "hat",
+        "source": "hat",
+        "options": {
+          "width": 0.32,
+          "sink": 0.06
+        },
+        "cut": {
+          "mode": "parts",
+          "tris": 300,
+          "texture": 256
+        }
+      },
+      "budget": 2000,
+      "made": "simplified; frozen in the first frame of its idle; the top hat put on his head"
+    },
+    "paratrooper": {
+      "units": [
+        "Paratrooper"
+      ],
+      "source": "generated-paratrooper",
+      "cut": {
+        "mode": "rewrap",
+        "tris": 2000,
+        "texture": 512,
+        "depth": 8
+      },
+      "stage": {
+        "measure": "height",
+        "size": 1.8,
+        "turn": 0
+      },
+      "prop": {
+        "mode": "chute",
+        "source": "parachute",
+        "options": {
+          "width": 3.2,
+          "bottom": 1.5
+        },
+        "cut": {
+          "mode": "parts",
+          "tris": 500,
+          "texture": 512
+        }
+      },
+      "budget": 2500,
+      "made": "generated soldier, rewrapped; the parachute, simplified, over him"
+    },
+    "fanatic": {
+      "units": [
+        "Fanatic"
+      ],
+      "source": "monk",
+      "cut": {
+        "mode": "parts",
+        "tris": 1800,
+        "texture": 512
+      },
+      "stage": {
+        "measure": "height",
+        "size": 1.8,
+        "turn": 0
+      },
+      "prop": {
+        "mode": "hand",
+        "source": "torch",
+        "options": {
+          "height": 0.62,
+          "grip": 0.3,
+          "upright": "pca",
+          "tris": 200
+        }
+      },
+      "budget": 2000,
+      "made": "simplified; the torch, simplified, put in his right hand"
+    },
+    "mech-inf": {
+      "units": [
+        "MechanizedInfantry"
+      ],
+      "source": "mech-inf",
+      "cut": {
+        "mode": "parts",
+        "tris": 3000,
+        "texture": 1024
+      },
+      "stage": {
+        "measure": "along",
+        "size": 7.7,
+        "turn": 90
+      },
+      "scale": 0.02987,
+      "budget": 3000,
+      "made": "simplified"
+    },
+    "cannon": {
+      "units": [
+        "Cannon"
+      ],
+      "source": "cannon",
+      "cut": {
+        "mode": "parts",
+        "tris": 3000,
+        "texture": 1024
+      },
+      "stage": {
+        "measure": "along",
+        "size": 5,
+        "turn": -90
+      },
+      "scale": 0.04,
+      "budget": 3000,
+      "made": "simplified"
+    },
+    "artillery": {
+      "units": [
+        "Artillery"
+      ],
+      "source": "artillery",
+      "drop": [
+        "Object_6"
+      ],
+      "cut": {
+        "mode": "parts",
+        "tris": 3000,
+        "texture": 1024
+      },
+      "stage": {
+        "measure": "along",
+        "size": 6,
+        "turn": -135
+      },
+      "scale": 0.04,
+      "budget": 3000,
+      "made": "the second gun in the file left out; simplified"
+    },
+    "howitzer": {
+      "units": [
+        "Howitzer"
+      ],
+      "source": "howitzer",
+      "cut": {
+        "mode": "parts",
+        "tris": 3000,
+        "texture": 1024
+      },
+      "stage": {
+        "measure": "along",
+        "size": 12,
+        "turn": 0
+      },
+      "scale": 0.0225,
+      "budget": 3000,
+      "made": "simplified"
+    },
+    "tank": {
+      "units": [
+        "Tank"
+      ],
+      "source": "tank",
+      "cut": {
+        "mode": "parts",
+        "tris": 3000,
+        "texture": 1024
+      },
+      "stage": {
+        "measure": "along",
+        "size": 5.9,
+        "turn": 0
+      },
+      "scale": 0.038983,
+      "budget": 3000,
+      "made": "rebaked"
+    },
+    "freight": {
+      "units": [
+        "Freight"
+      ],
+      "source": "freight",
+      "cut": {
+        "mode": "parts",
+        "tris": 3000,
+        "texture": 1024
+      },
+      "stage": {
+        "measure": "along",
+        "size": 7.4,
+        "turn": 0
+      },
+      "scale": 0.031081,
+      "budget": 3000,
+      "made": "simplified"
+    },
+    "nuclear": {
+      "units": [
+        "Nuclear"
+      ],
+      "source": "nuclear",
+      "cut": {
+        "mode": "parts",
+        "tris": 2450,
+        "texture": 1024
+      },
+      "stage": {
+        "measure": "height",
+        "size": 34,
+        "turn": 0
+      },
+      "scale": 0.006471,
+      "budget": 2500,
+      "made": "simplified; stands upright"
+    },
+    "cruise-missile": {
+      "units": [
+        "CruiseMissile"
+      ],
+      "source": "cruise-missile",
+      "cut": {
+        "mode": "parts",
+        "tris": 2500,
+        "texture": 1024
+      },
+      "stage": {
+        "measure": "along",
+        "size": 8.3,
+        "turn": 90
+      },
+      "scale": 0.019277,
+      "budget": 2500,
+      "made": "simplified"
+    },
+    "fighter": {
+      "units": [
+        "Fighter"
+      ],
+      "source": "fighter",
+      "drop": [
+        "Object_17",
+        "Object_19",
+        "Object_21",
+        "Object_23",
+        "Object_25",
+        "Object_27",
+        "Object_29"
+      ],
+      "cut": {
+        "mode": "parts",
+        "tris": 2500,
+        "texture": 1024
+      },
+      "stage": {
+        "measure": "along",
+        "size": 10.2,
+        "turn": 90,
+        "keep": true
+      },
+      "scale": 0.016176,
+      "budget": 2500,
+      "made": "its markings left out; rebaked; propeller animation kept"
+    },
+    "helicopter": {
+      "units": [
+        "Helicopter"
+      ],
+      "source": "helicopter",
+      "cut": {
+        "mode": "parts",
+        "tris": 2500,
+        "texture": 1024
+      },
+      "stage": {
+        "measure": "along",
+        "size": 17.5,
+        "turn": 0,
+        "keep": true
+      },
+      "scale": 0.011429,
+      "budget": 2500,
+      "made": "simplified; rotor and wheel animation kept"
+    },
+    "stealth-fighter": {
+      "units": [
+        "StealthFighter"
+      ],
+      "source": "stealth-fighter",
+      "cut": {
+        "mode": "parts",
+        "tris": 2500,
+        "texture": 1024
+      },
+      "stage": {
+        "measure": "along",
+        "size": 20,
+        "turn": -90
+      },
+      "scale": 0.0085,
+      "budget": 2500,
+      "made": "rebaked"
+    },
+    "galleon": {
+      "units": [
+        "Galleon"
+      ],
+      "source": "galleon",
+      "cut": {
+        "mode": "parts",
+        "tris": 3500,
+        "texture": 1024
+      },
+      "stage": {
+        "measure": "along",
+        "size": 40,
+        "turn": -90,
+        "draught": 4.5
+      },
+      "scale": 0.00825,
+      "budget": 3500,
+      "made": "simplified"
+    },
+    "transport": {
+      "units": [
+        "Transport"
+      ],
+      "source": "transport",
+      "cut": {
+        "mode": "rewrap",
+        "tris": 3500,
+        "texture": 1024,
+        "depth": 9
+      },
+      "stage": {
+        "measure": "along",
+        "size": 135,
+        "turn": 0,
+        "draught": 8.5
+      },
+      "scale": 0.002815,
+      "budget": 3500,
+      "made": "rewrapped. The source page forbids its use as input to generative AI: never send it to an AI tool"
+    },
+    "destroyer": {
+      "units": [
+        "Destroyer"
+      ],
+      "source": "destroyer",
+      "cut": {
+        "mode": "rewrap",
+        "tris": 3500,
+        "texture": 1024,
+        "depth": 9
+      },
+      "stage": {
+        "measure": "along",
+        "size": 111,
+        "turn": -90,
+        "draught": 3.8
+      },
+      "scale": 0.003423,
+      "budget": 3500,
+      "made": "rewrapped"
+    },
+    "cruiser": {
+      "units": [
+        "Cruiser"
+      ],
+      "source": "cruiser",
+      "cut": {
+        "mode": "parts",
+        "tris": 3500,
+        "texture": 1024
+      },
+      "stage": {
+        "measure": "along",
+        "size": 186,
+        "turn": 90,
+        "draught": 7.2
+      },
+      "scale": 0.002204,
+      "budget": 3500,
+      "made": "simplified"
+    },
+    "missile-cruiser": {
+      "units": [
+        "MissileCruiser"
+      ],
+      "source": "missile-cruiser",
+      "cut": {
+        "mode": "rewrap",
+        "tris": 3500,
+        "texture": 1024,
+        "depth": 9
+      },
+      "stage": {
+        "measure": "along",
+        "size": 154,
+        "turn": 0,
+        "draught": 8.0
+      },
+      "scale": 0.002662,
+      "budget": 3500,
+      "made": "rewrapped"
+    },
+    "battleship": {
+      "units": [
+        "Battleship"
+      ],
+      "source": "battleship",
+      "cut": {
+        "mode": "rewrap",
+        "tris": 3500,
+        "texture": 1024,
+        "depth": 9
+      },
+      "stage": {
+        "measure": "along",
+        "size": 251,
+        "turn": -90,
+        "draught": 9.3
+      },
+      "scale": 0.001673,
+      "budget": 3500,
+      "made": "rewrapped"
+    },
+    "submarine": {
+      "units": [
+        "Submarine"
+      ],
+      "source": "submarine",
+      "cut": {
+        "mode": "parts",
+        "tris": 3440,
+        "texture": 1024
+      },
+      "stage": {
+        "measure": "along",
+        "size": 56,
+        "turn": 180,
+        "draught": 5.5
+      },
+      "scale": 0.005357,
+      "budget": 3500,
+      "made": "simplified"
+    },
+    "carrier": {
+      "units": [
+        "Carrier"
+      ],
+      "source": "carrier",
+      "cut": {
+        "mode": "parts",
+        "tris": 3500,
+        "texture": 1024
+      },
+      "stage": {
+        "measure": "along",
+        "size": 333,
+        "turn": 0,
+        "draught": 12.0
+      },
+      "scale": 0.001351,
+      "budget": 3500,
+      "made": "rebaked"
+    }
+  },
+  "extras": {
+    "rigged/diplomat.glb": {
+      "source": "diplomat",
+      "cut": {
+        "mode": "parts",
+        "tris": 1700,
+        "texture": 512
+      },
+      "stage": {
+        "measure": "height",
+        "size": 1.8,
+        "turn": 0,
+        "pose": [
+          "Rig|idle",
+          0
+        ],
+        "keep": true
+      },
+      "prop": {
+        "mode": "bonehat",
+        "source": "hat",
+        "options": {
+          "width": 0.32,
+          "sink": 0.06,
+          "bone": "Head_06",
+          "action": "Rig|idle"
+        },
+        "cut": {
+          "mode": "parts",
+          "tris": 300,
+          "texture": 256
+        }
+      },
+      "made": "rigged: its own 72-bone skeleton and 25 animations by its author, CC BY; the hat on the head bone"
+    }
+  }
+}
