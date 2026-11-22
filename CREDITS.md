@@ -1,4 +1,4 @@
-# Realistic: CC BY: credits
+# Credits for Realistic: CC BY
 
 Models by the authors listed at https://github.com/civ-clone/models-realistic-by/blob/main/CREDITS.md, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/): reduced, rebaked, assembled and converted by dom111.
 

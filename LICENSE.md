@@ -6,7 +6,7 @@ This repository holds two kinds of work under two licences.
 
 `models/` are adapted from models by the authors listed in [CREDITS.md](CREDITS.md) and in each file's `asset.extras`,
 each licensed by its author under the Creative Commons Attribution 4.0 International licence:
-https://creativecommons.org/licenses/by/4.0/ . `manifest.json` and `CREDITS.md`, which describe them, are under the
+https://creativecommons.org/licenses/by/4.0/ (but for the Paratroopers' soldier, CC0, below). `manifest.json` and `CREDITS.md`, which describe them, are under the
 same licence.
 
 I made these changes, which are under the same licence:

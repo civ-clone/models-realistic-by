@@ -23,7 +23,8 @@ civ.one's 3D map draws each type from one set.
   torch, each from a model of its own. The Paratroopers' soldier I generated in Meshy (CC0, made with AI: an image
   from a text prompt with Google's Nano Banana, then a model from the image); the file is CC BY because of its
   parachute. The Paratroopers are one soldier under a canopy 3.2 m wide: draw them once, not as a squad, or the
-  canopies cut through each other.
+  canopies cut through each other. Even drawn once, the canopy makes them 5.9 m tall, 0.55 squares at the set's scale,
+  so they may want a scale of their own.
 - **Animated:** the Fighter keeps its propeller's animation and the Helicopter its rotors' and wheels', each with its
   parts as their nodes place them. The rest are one mesh each, standing still.
 - **Standing and floating:** a model stands on its origin, centred across and along, at its real size in metres. A
@@ -86,6 +87,7 @@ Blender, or another platform, may cut or bake it a little differently.
   [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/), and my changes are under it too, as are the manifest and
   `CREDITS.md`, which describe them. Credit the authors
   wherever they're used, as CREDITS.md does.
-- **The tools and the roster** (`tools/`, `roster.json`) are mine, under the MIT licence.
+- **The tools, the roster and the files about the repository** (`tools/`, `roster.json`, this README and the rest)
+  are mine, under the MIT licence.
 
 See [LICENSE.md](LICENSE.md).
