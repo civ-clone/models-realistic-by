@@ -1,6 +1,6 @@
 # Realistic: CC BY: credits
 
-Models by the authors credited in this set, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/): reduced, rebaked, assembled and converted by dom111.
+Models by the authors listed at https://github.com/civ-clone/models-realistic-by/blob/main/CREDITS.md, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/): reduced, rebaked, assembled and converted by dom111.
 
 - "Business Man - Low Polygon game character" by manoeldarochadeoliveira (https://sketchfab.com/3d-models/business-man-low-polygon-game-character-b6f6740f883b4749abac47af0045a9dd), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)
 - "Top Hat | FREE Download" by Robin Butler (https://sketchfab.com/3d-models/top-hat-free-download-4fdf3ad3c88d4bb58ea7aabb9bfcffae), CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/)

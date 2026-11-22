@@ -5,7 +5,7 @@
     "licence": {
       "name": "CC BY 4.0",
       "url": "https://creativecommons.org/licenses/by/4.0/",
-      "attribution": "Models by the authors credited in this set, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/): reduced, rebaked, assembled and converted by dom111."
+      "attribution": "Models by the authors listed at https://github.com/civ-clone/models-realistic-by/blob/main/CREDITS.md, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/): reduced, rebaked, assembled and converted by dom111."
     }
   },
   "date": "22 November 2026",
@@ -18,7 +18,7 @@
       "name": "CC0 1.0",
       "url": "https://creativecommons.org/publicdomain/zero/1.0/"
     },
-    "note": "Generated from text prompts with Meshy (meshy.ai) on a paid plan, so owned by dom111, and dedicated to the public domain under CC0. Made with AI."
+    "note": "Generated in Meshy (meshy.ai) on a paid plan, from text prompts: Meshy made an image from each prompt with Google's Nano Banana, then a model from the image. Owned by dom111 under Meshy's terms, and dedicated to the public domain under CC0. Made with AI."
   },
   "sources": {
     "diplomat": {
@@ -51,7 +51,7 @@
         "name": "CC0 1.0",
         "url": "https://creativecommons.org/publicdomain/zero/1.0/"
       },
-      "note": "Generated with Meshy (meshy.ai) on a paid plan, so mine, and dedicated to the public domain. Made with AI.",
+      "note": "Generated in Meshy (meshy.ai) on a paid plan, so mine under Meshy's terms, and dedicated to the public domain. Made with AI.",
       "ai": true,
       "generated": true,
       "made": "an image from the prompt with Nano Banana, then Meshy 7.1 image to 3D (Ultra 2K, 2K texture)",
@@ -660,7 +660,7 @@
       },
       "scale": 0.002815,
       "budget": 3500,
-      "made": "rewrapped. The source page forbids its use as input to generative AI: never send it to an AI tool"
+      "made": "rewrapped"
     },
     "destroyer": {
       "units": [

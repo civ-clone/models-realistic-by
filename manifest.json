@@ -7,7 +7,7 @@
  "licence": {
   "name": "CC BY 4.0",
   "url": "https://creativecommons.org/licenses/by/4.0/",
-  "attribution": "Models by the authors credited in this set, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/): reduced, rebaked, assembled and converted by dom111."
+  "attribution": "Models by the authors listed at https://github.com/civ-clone/models-realistic-by/blob/main/CREDITS.md, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/): reduced, rebaked, assembled and converted by dom111."
  },
  "credits": [
   {
@@ -240,7 +240,7 @@
  "models": {
   "diplomat": {
    "file": "models/diplomat.glb",
-   "sha256": "9054bb2e11a0d1760559bd99c03fd814f216a9d68a21518e5b6c70fceb3801e2",
+   "sha256": "fbcc7eb11f8264c1fd8f20492f0785267aeec0e5b6abc8b7dc6189c0566fd1e0",
    "extent": {
     "across": [
      -0.307,
@@ -261,7 +261,7 @@
   },
   "paratrooper": {
    "file": "models/paratrooper.glb",
-   "sha256": "a68b4143fd2c806cd8f1d68ae18f5585d80e6a97ab74081069fa452f4c6cf4ba",
+   "sha256": "d7d93ddf2c32423e0bf56f0de6db20746d595a1dd472c484473250948f309755",
    "extent": {
     "across": [
      -1.6,
@@ -282,7 +282,7 @@
   },
   "fanatic": {
    "file": "models/fanatic.glb",
-   "sha256": "0e9f69c7cd35a00ddcad9efc821eb6218d8957d32ff311477004a95cd6e89ec1",
+   "sha256": "aa9c15465eb5383860586ef7c520d34fcf0918275cc642be6f43f40babdb308f",
    "extent": {
     "across": [
      -0.671,
@@ -304,7 +304,7 @@
   "mech-inf": {
    "file": "models/mech-inf.glb",
    "scale": 0.02987,
-   "sha256": "de9b33b7b97ddbe8df075dff269642b31b5a801b29a6dfb20477cc62ba332f43",
+   "sha256": "1ddffe7fd47cf276bcb444b8b6eb3a50c3ee9f8852ce6f7597e1e64d191a17d3",
    "extent": {
     "across": [
      -1.478,
@@ -325,7 +325,7 @@
   "cannon": {
    "file": "models/cannon.glb",
    "scale": 0.04,
-   "sha256": "422dd240c3ddbe08a544adc18a146d26560f819f56c1bc6a5d1e8b5ecccbba35",
+   "sha256": "bf82fc6e66bc1a7fd41d86bf3f027c4b6426226eb2514cc2fa66fb6d0c6fbc98",
    "extent": {
     "across": [
      -1.383,
@@ -346,7 +346,7 @@
   "artillery": {
    "file": "models/artillery.glb",
    "scale": 0.04,
-   "sha256": "07fcabb5e7e4f643779879654c05b450ad1ef79f67f8402ae36475c28310d69e",
+   "sha256": "c84876bfeb85f455d765a14a6245253a0535cbe6ecc6c882ac6758eb39ba3425",
    "extent": {
     "across": [
      -1.027,
@@ -367,7 +367,7 @@
   "howitzer": {
    "file": "models/howitzer.glb",
    "scale": 0.0225,
-   "sha256": "efa5a69a10496d6b5584bcae464995e0cab87c13ec8f2c040285d79f9d9f578c",
+   "sha256": "41d85008a1aa17d0bbe0b8b3c96f851ed5c45dd37aca9f5be7403c8dc6c0729e",
    "extent": {
     "across": [
      -0.964,
@@ -388,7 +388,7 @@
   "tank": {
    "file": "models/tank.glb",
    "scale": 0.038983,
-   "sha256": "4c28a8ac08ad78cca988881098801cbccc37a54647e550f35ab6fc55bfa658c4",
+   "sha256": "6c1d369c28fc644ebd2a2564feb39b13c54505392786c037009960acd197e4f0",
    "extent": {
     "across": [
      -1.524,
@@ -409,7 +409,7 @@
   "freight": {
    "file": "models/freight.glb",
    "scale": 0.031081,
-   "sha256": "432b9b1f2987a1452994678d0cb943a643764a23ef8a5282a872d5db519ab575",
+   "sha256": "1754bb7d04dfae1c1c9aa769af9d2816718dbb6ed0601cdae6e115d9098e7c16",
    "extent": {
     "across": [
      -1.496,
@@ -430,7 +430,7 @@
   "nuclear": {
    "file": "models/nuclear.glb",
    "scale": 0.006471,
-   "sha256": "a62a5402c9ff274a790e5ce473f939a0acfef69e9937050b5508d34338981c1a",
+   "sha256": "096b8114d8ca0a817a2f683f114d0c583272fd4d803e5e292d80723178500832",
    "extent": {
     "across": [
      -2.123,
@@ -451,7 +451,7 @@
   "cruise-missile": {
    "file": "models/cruise-missile.glb",
    "scale": 0.019277,
-   "sha256": "8c5710c4863a249da23a3bd263c6711af553c6e99d94951976a523d5b88481d4",
+   "sha256": "d8b3c174f3ac162944ae87f9bc690da1d2bfa3089d6b15fb85b570f48a5718a5",
    "extent": {
     "across": [
      -3.636,
@@ -472,7 +472,7 @@
   "fighter": {
    "file": "models/fighter.glb",
    "scale": 0.016176,
-   "sha256": "079ac7a36eb5c1e9c0844735fc6298edd4f175937b3b7ca9dfd7e0a1a3ddf1df",
+   "sha256": "eb6c2cf411ddd0b2f3baba797a5b68f26c15651372f1dbe6b2eec92b0097d058",
    "extent": {
     "across": [
      -6.611,
@@ -497,7 +497,7 @@
   "helicopter": {
    "file": "models/helicopter.glb",
    "scale": 0.011429,
-   "sha256": "abe8128a98603fca8690678bf999489ce96713675555c284faf307c5032fddcc",
+   "sha256": "5144b59f7324d9f25e988bbf1e561541a5d843553fc10fdb6c8249ea5ec39bf0",
    "extent": {
     "across": [
      -7.172,
@@ -521,7 +521,7 @@
   "stealth-fighter": {
    "file": "models/stealth-fighter.glb",
    "scale": 0.0085,
-   "sha256": "5ade13344dc647d691424c2d1b6f78c606416c8caa5802253da3b7bed97752fb",
+   "sha256": "dc5a54b2acba0cf18e8b48bd4538f401b827a0428a3fbb955cfd741b54b0866c",
    "extent": {
     "across": [
      -6.504,
@@ -542,7 +542,7 @@
   "galleon": {
    "file": "models/galleon.glb",
    "scale": 0.00825,
-   "sha256": "ab7dccfb2a2af009bc6865fb09cffe606f4d8241f9b246f29c668f0f7541ba03",
+   "sha256": "d7e339bdf89e1f3ee68b588df3f4f085aceab3f9f12df8c488ad1c57a2356163",
    "extent": {
     "across": [
      -9.002,
@@ -564,7 +564,7 @@
   "transport": {
    "file": "models/transport.glb",
    "scale": 0.002815,
-   "sha256": "87449b43e6baf587fd4156c328b585d8369969898359fb0c576b0009a0942123",
+   "sha256": "c1271e19c25087e92528e0de7d94e2d69b2a50767e1ada7a80726556bac9abc2",
    "extent": {
     "across": [
      -10.116,
@@ -581,12 +581,12 @@
    "from": [
     "https://sketchfab.com/3d-models/liberty-ship-a1db8e8414464c5d8b11383e202fcf26"
    ],
-   "made": "rewrapped. The source page forbids its use as input to generative AI: never send it to an AI tool"
+   "made": "rewrapped"
   },
   "destroyer": {
    "file": "models/destroyer.glb",
    "scale": 0.003423,
-   "sha256": "08517cb3244fb9771227d480352be6c6fab4f8573ec9eba5d4ab9eff39570492",
+   "sha256": "3dba9796d751a5f46030aed65cfa7e32858131ef2fae8f4593857a612779287c",
    "extent": {
     "across": [
      -5.538,
@@ -608,7 +608,7 @@
   "cruiser": {
    "file": "models/cruiser.glb",
    "scale": 0.002204,
-   "sha256": "e5af58fab6b6a153d68154d9d7c009843a5bc4ce347c0d6941cd789942db2212",
+   "sha256": "f714d4611c0a5bf8881ff8d3f82d37eb9ba78305ccfdeb599f3bb827ab02b4f6",
    "extent": {
     "across": [
      -11.176,
@@ -630,7 +630,7 @@
   "missile-cruiser": {
    "file": "models/missile-cruiser.glb",
    "scale": 0.002662,
-   "sha256": "6914a97b95f108e6aa7fb0aa2e54597dd131b16bb33d3baf12923b2b4ad1e9a3",
+   "sha256": "897b31dfea20434aa4bd3cd637507e4629fa2cacbff106b5910069f4e3f18ca0",
    "extent": {
     "across": [
      -11.853,
@@ -652,7 +652,7 @@
   "battleship": {
    "file": "models/battleship.glb",
    "scale": 0.001673,
-   "sha256": "322b377331e73159ba46942e7d305989c6d2db3ebd7ed7f0c06b4cde6e41713f",
+   "sha256": "1ab20c267e38f29373b9b68fbf17616466d5cf04e32f467d6596258cec714dd6",
    "extent": {
     "across": [
      -18.096,
@@ -674,7 +674,7 @@
   "submarine": {
    "file": "models/submarine.glb",
    "scale": 0.005357,
-   "sha256": "07b722c3a12e19bd10ea3af98f9de2a34340c5b39d2c590c7a32f67442c004e5",
+   "sha256": "d061dfe156298a72e68b2476d8acc17555253bd61ca38e34bc7db64b1133682a",
    "extent": {
     "across": [
      -5.22,
@@ -696,7 +696,7 @@
   "carrier": {
    "file": "models/carrier.glb",
    "scale": 0.001351,
-   "sha256": "490671d6d0c05cdcf442a651689d79ad2a98799de8bc79a48aa37b9c47d6c180",
+   "sha256": "d054a955f94360bbc4956519eb224645783457da0bd63160418cd0b5b669d2f3",
    "extent": {
     "across": [
      -42.063,

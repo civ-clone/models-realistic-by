@@ -14,13 +14,16 @@ civ.one's 3D map draws each type from one set.
 
 ## What's here
 
-- **`models/*.glb`:** one glTF binary for each model, facing `+z`, with one colour texture (JPEG, 512 px for people
-  and 1024 px for the rest). Each was cut down to its budget (2,000 triangles for a person, 2,500 for the Paratroopers
-  with their parachute, 3,000 for a vehicle or gun, 2,500 for an aircraft or missile, 3,500 for a ship), and its colour
-  baked into the texture. Each carries its credits, licence and what was done to it in `asset.extras`.
+- **`models/*.glb`:** one glTF binary for each model, facing `+z`, with one baked colour texture (JPEG, 512 px for
+  people and 1024 px for the rest), and a second for a prop. Each was cut down to its budget (2,000 triangles for a
+  person, 2,500 for the Paratroopers with their parachute, 3,000 for a vehicle or gun, 2,500 for an aircraft or
+  missile, 3,500 for a ship), and its colour baked into the texture. Each carries its credits in `asset.copyright`,
+  and its credits, licence and what was done to it in `asset.extras`.
 - **Put together:** the Diplomat wears a top hat, the Paratroopers hang under a parachute and the Fanatics carry a
-  torch, each from a model of its own. The Paratroopers' soldier I made for civ.one (CC0); the file is CC BY because
-  of its parachute.
+  torch, each from a model of its own. The Paratroopers' soldier I generated in Meshy (CC0, made with AI: an image
+  from a text prompt with Google's Nano Banana, then a model from the image); the file is CC BY because of its
+  parachute. The Paratroopers are one soldier under a canopy 3.2 m wide: draw them once, not as a squad, or the
+  canopies cut through each other.
 - **Animated:** the Fighter keeps its propeller's animation and the Helicopter its rotors' and wheels', each with its
   parts as their nodes place them. The rest are one mesh each, standing still.
 - **Standing and floating:** a model stands on its origin, centred across and along, at its real size in metres. A
@@ -45,7 +48,7 @@ civ.one's 3D map draws each type from one set.
 
   The set's scale draws a 1.8 m person as tall as the other sets' people, 0.168 squares. The 3D map draws units
   bigger than life, so the rest have scales of their own, matched to models-cimpletoon's sizes: vehicles and guns
-  0.20 to 0.27 squares long, aircraft 0.16 to 0.22, ships 0.30 to 0.45.
+  0.20 to 0.27 squares long, aircraft and missiles 0.16 to 0.22 across their longest side, ships 0.30 to 0.45 long.
 - **`tools/`:** the build (`build.py`, with the Blender scripts it runs in `tools/blender/`) and the check CI runs
   (`check.py`).
 

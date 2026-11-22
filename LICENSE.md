@@ -16,17 +16,22 @@ I made these changes, which are under the same licence:
   Diplomat stands as his idle animation's first frame has him.
 - **Assembly:** the Diplomat's top hat, the Paratroopers' parachute and the Fanatics' torch are each put with the
   model they go with.
-- **Format:** each is a glTF binary with a JPEG texture, carrying its credits in `asset.extras`.
+- **Format:** each is a glTF binary with JPEG textures, carrying its credits in `asset.copyright` and
+  `asset.extras`.
 
-The Paratroopers' soldier I generated for civ.one with [Meshy](https://www.meshy.ai) from a text prompt (made with
-AI), and dedicate to the public domain under CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/); the file is
-CC BY because of its parachute.
+The Paratroopers' soldier I generated for civ.one in [Meshy](https://www.meshy.ai) on a paid plan: from a text prompt,
+Meshy made an image with Google's Nano Banana, then a model from the image (made with AI). Meshy's terms make it mine,
+and I dedicate it to the public domain under CC0 1.0 (https://creativecommons.org/publicdomain/zero/1.0/); the file
+is CC BY because of its parachute.
 
 You may use, change and share them, for any purpose, if you credit each author as CREDITS.md does, with a link to the
 licence, and say that they were changed. A credit you can copy for the whole set:
 
-> Models by the authors credited in this set, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/): reduced,
-> rebaked, assembled and converted by dom111.
+> Models by the authors listed at https://github.com/civ-clone/models-realistic-by/blob/main/CREDITS.md, CC BY 4.0
+> (https://creativecommons.org/licenses/by/4.0/): reduced, rebaked, assembled and converted by dom111.
+
+CC BY 4.0 licenses each author's own rights in their model. It grants nothing in anyone else's designs or trademarks,
+such as those of the real vehicles, aircraft and ships these depict.
 
 The Transport comes from a page that says it "may not be used in datasets for, in the development of, or as inputs to
 generative AI programs".
