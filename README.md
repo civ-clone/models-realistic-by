@@ -86,6 +86,10 @@ Name models to build only those. Blender runs with its factory settings and with
 reads the originals only as data. Without `--originals`, `build.py` only writes each model's `asset.copyright` and
 `asset.extras`, the manifest and the credits.
 
+The owner's colour goes on last, and `owner.py` won't colour a file that has it already, so a changed `owner`
+rule takes effect only when its model is built again from its original. `check.py` checks each rule's form, not
+that the file follows it.
+
 The originals:
 - **Most:** the copies in [Objaverse](https://huggingface.co/datasets/allenai/objaverse), whose links the roster
   gives.

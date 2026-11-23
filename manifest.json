@@ -274,7 +274,7 @@
   },
   "fanatic": {
    "file": "models/fanatic.glb",
-   "sha256": "0af3d20ec7638853b4bd7c48cefc7d3d5a9eee396e6b48ec3711dab69be95dc6",
+   "sha256": "a9e2767ee119a8842abf0446f1b0ae7163507fcd8ebdca3c6d38cb24456e85dc",
    "extent": {
     "across": [
      -0.671,
@@ -359,7 +359,7 @@
   "howitzer": {
    "file": "models/howitzer.glb",
    "scale": 0.0225,
-   "sha256": "f06f24fa18619a18a1d700850ba6ab43d8dcf62e40b786d0b3420f5a8f7819d2",
+   "sha256": "53b38db5c63f2978db8f6199ca93f034ab68340baf02a358058a9f5eebae0709",
    "extent": {
     "across": [
      -0.964,
@@ -401,7 +401,7 @@
   "freight": {
    "file": "models/freight.glb",
    "scale": 0.031081,
-   "sha256": "188f39647ed58572a318e0bb7beb2bf0740b98be8abe197683ecfb7b12b31d8a",
+   "sha256": "903eaa6142a3f4acbdee77c5e5be6c76898b151a566cd257fb06bdbdda39920b",
    "extent": {
     "across": [
      -1.496,
