@@ -512,8 +512,153 @@
           }
         ]
       },
+      "stance": {
+        "joints": {
+          "pelvis": [
+            0.004,
+            0.954,
+            -0.025
+          ],
+          "chest": [
+            0.0,
+            1.296,
+            -0.045
+          ],
+          "neck": [
+            0.002,
+            1.494,
+            -0.056
+          ],
+          "head": [
+            0.0,
+            1.566,
+            -0.038
+          ],
+          "top": [
+            0.0,
+            1.8,
+            -0.038
+          ],
+          "hip.L": [
+            0.103,
+            0.9,
+            -0.025
+          ],
+          "knee.L": [
+            0.153,
+            0.513,
+            0.009
+          ],
+          "ankle.L": [
+            0.153,
+            0.09,
+            -0.046
+          ],
+          "toe.L": [
+            0.153,
+            0.036,
+            0.124
+          ],
+          "hip.R": [
+            -0.095,
+            0.9,
+            -0.025
+          ],
+          "knee.R": [
+            -0.14,
+            0.513,
+            -0.013
+          ],
+          "ankle.R": [
+            -0.156,
+            0.09,
+            -0.046
+          ],
+          "toe.R": [
+            -0.156,
+            0.036,
+            0.124
+          ],
+          "shoulder.L": [
+            0.184,
+            1.458,
+            -0.045
+          ],
+          "elbow.L": [
+            0.39,
+            1.291,
+            0.049
+          ],
+          "wrist.L": [
+            0.551,
+            1.161,
+            0.123
+          ],
+          "hand.L": [
+            0.671,
+            1.064,
+            0.177
+          ],
+          "shoulder.R": [
+            -0.176,
+            1.458,
+            -0.045
+          ],
+          "elbow.R": [
+            -0.385,
+            1.291,
+            0.049
+          ],
+          "wrist.R": [
+            -0.549,
+            1.161,
+            0.123
+          ],
+          "hand.R": [
+            -0.671,
+            1.064,
+            0.177
+          ]
+        },
+        "aim": {
+          "upper_arm.L": [
+            0.18,
+            -1,
+            0.06
+          ],
+          "forearm.L": [
+            0.06,
+            -1,
+            0.25
+          ],
+          "upper_arm.R": [
+            -0.22,
+            -1,
+            0.22
+          ],
+          "forearm.R": [
+            -0.12,
+            -0.6,
+            1
+          ],
+          "hand.R": [
+            -0.12,
+            -0.6,
+            1
+          ]
+        },
+        "twist": {
+          "hand.R": -51
+        },
+        "whole": [
+          {
+            "part": 2,
+            "bone": "hand.R"
+          }
+        ]
+      },
       "budget": 2000,
-      "made": "simplified; the torch, simplified, put in his right hand; the owner's colour on the robe"
+      "made": "simplified; the torch, simplified, put in his right hand; the owner's colour on the robe; posed, his left arm at his side and the torch held upright in his right hand"
     },
     "mech-inf": {
       "units": [

@@ -19,6 +19,7 @@ I made these changes, which are under the same licence:
   model they go with.
 - **The owner's colour:** on each model in the manifest, the faces that take their owner's colour, as `roster.json`
   says, are a primitive of their own, with a PNG of their own whose alpha is 0 where the colour goes.
+- **Poses:** the Fanatics are posed holding their torch upright, out of the T-pose they were made in.
 - **Format:** each is a glTF binary with JPEG textures (and that PNG), carrying its credits in `asset.copyright` and
   `asset.extras`.
 
