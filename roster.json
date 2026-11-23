@@ -648,8 +648,7 @@
           ]
         },
         "twist": {
-          "hand.R": -51,
-          "hand.L": 70
+          "hand.R": -51
         },
         "whole": [
           {
