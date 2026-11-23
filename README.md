@@ -49,14 +49,14 @@ civ.one's 3D map draws each type from one set.
   texel (`cut`), as for bands and wingtips, and the colour ends partway across a face, the rest of that face is the
   texture's colour, solid, at that half size. The rest of each model is drawn from its JPEG as before. Where the
   colour goes is each model's `owner` rule in `roster.json`. The rigged Diplomat has none yet.
-- **Poses:** the Fanatics, made standing in a T-pose, hold their torch upright at their side, the other arm down.
-  The Diplomat stands as in the first frame of his idle, and the Paratroopers' soldier hangs under his parachute as
-  he was made.
+- **Poses:** the Fanatics, made standing with their arms held out, hold their torch upright at their side, the other
+  arm down. The Diplomat stands as in the first frame of his idle, and the Paratroopers' soldier hangs under his
+  parachute as he was made.
 
-  A figure is posed by `tools/blender/stance.py`, as its `stance` in `roster.json` says: a skeleton fitted to it
-  where it stands in the file, the way each bone should point, and any pieces that move whole (a rifle, a
-  torch). Blender weights each point to the bones near it, and the file's points and normals are moved; nothing
-  else in it changes.
+  A figure is posed by `tools/blender/stance.py`, as its `stance` in `roster.json` says: a skeleton fitted to it where
+  it stands in the file, the way each bone should point, and any pieces that move whole (the torch). Blender weights
+  each point to the bones near it, and the file's points and normals are moved; nothing else in it changes but a mark
+  on the mesh (`extras.posed`).
 - **Not yet:** the Fighter's markings are taken off, but some ships still carry painted names and numbers.
 - **`manifest.json`:** the set, as civ.one's library describes a set of models:
   - its licence, with the credit to show wherever it's used (`licence.attribution`), and its credits;
