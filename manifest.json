@@ -231,7 +231,7 @@
  "models": {
   "diplomat": {
    "file": "models/diplomat.glb",
-   "sha256": "ed0d60ec0e126b6c501777bc896636ed343da979952bea583400a6fa396e5212",
+   "sha256": "d93da9f6fa8937bbffa72a96ed7f7001aa41f227671ef91440abd1941d4653fc",
    "extent": {
     "across": [
      -0.307,
@@ -248,7 +248,7 @@
     "https://sketchfab.com/3d-models/business-man-low-polygon-game-character-b6f6740f883b4749abac47af0045a9dd",
     "https://sketchfab.com/3d-models/top-hat-free-download-4fdf3ad3c88d4bb58ea7aabb9bfcffae"
    ],
-   "made": "simplified; frozen in the first frame of its idle; the top hat put on his head; the owner's colour on the jacket"
+   "made": "simplified; frozen in the first frame of its idle; the top hat put on his head; the owner's colour on the jacket and tie"
   },
   "paratrooper": {
    "file": "models/paratrooper.glb",
@@ -296,7 +296,7 @@
   "mech-inf": {
    "file": "models/mech-inf.glb",
    "scale": 0.02987,
-   "sha256": "56963f1f205a3d424501cca469c1520b4ffdb2e38c6d132a7b4fa4a56ff3c24d",
+   "sha256": "a9783b822da50411a623d697e11c9467a0f6c08dcbf469b87c1fffdef2732fbe",
    "extent": {
     "across": [
      -1.478,
@@ -556,7 +556,7 @@
   "destroyer": {
    "file": "models/destroyer.glb",
    "scale": 0.003423,
-   "sha256": "8a25c100f2a03098dc5dabcfcc424834d9187eed78684b75bcad1b9199543f77",
+   "sha256": "c8a7e849b25c1cec136b2dbcb0603f70e4739cfd7616cfe74c94f94764f2ed1f",
    "extent": {
     "across": [
      -5.538,

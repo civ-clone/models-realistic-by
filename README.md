@@ -35,7 +35,7 @@ civ.one's 3D map draws each type from one set.
   animations (idle, walking, running, talking, sitting, turning, a jump, blinks and mouth shapes), the hat on its head
   bone. Play an animation: at rest it lies flat.
 - **The owner's colour:** each model takes its owner's colour on one part, as models-0ad and models-cimpletoon do:
-  - **people:** their jacket or robe, and the Paratroopers' parachute;
+  - **people:** their jacket or robe (and the Diplomat's tie), and the Paratroopers' parachute;
   - **guns:** the Cannon's carriage and wheels, and the Artillery's and Howitzer's paint;
   - **vehicles:** the Armor's upper hull and turret, the Mech. Inf.'s hull and the Freight's canvas cover;
   - **missiles:** the Nuclear's green bands and the Cruise Missile's wings;

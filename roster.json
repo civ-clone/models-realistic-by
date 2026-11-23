@@ -373,11 +373,25 @@
               -0.2,
               -0.12
             ]
+          },
+          {
+            "x": [
+              -0.13,
+              0.17
+            ],
+            "y": [
+              0.85,
+              0.96
+            ],
+            "z": [
+              0.02,
+              0.075
+            ]
           }
         ]
       },
       "budget": 2000,
-      "made": "simplified; frozen in the first frame of its idle; the top hat put on his head; the owner's colour on the jacket"
+      "made": "simplified; frozen in the first frame of its idle; the top hat put on his head; the owner's colour on the jacket and tie"
     },
     "paratrooper": {
       "units": [
@@ -526,7 +540,29 @@
             ]
           }
         ],
-        "cut": true
+        "cut": true,
+        "without": [
+          {
+            "x": [
+              1.0,
+              1.46
+            ],
+            "y": [
+              0.0,
+              1.13
+            ]
+          },
+          {
+            "x": [
+              -1.46,
+              -1.0
+            ],
+            "y": [
+              0.0,
+              1.13
+            ]
+          }
+        ]
       },
       "budget": 3000,
       "made": "simplified; the owner's colour on the hull"
@@ -1009,7 +1045,23 @@
           }
         ],
         "sides": 0.5,
-        "cut": true
+        "cut": true,
+        "without": [
+          {
+            "x": [
+              -4.2,
+              4.2
+            ],
+            "y": [
+              2.0,
+              4.8
+            ],
+            "z": [
+              -38.5,
+              -7
+            ]
+          }
+        ]
       },
       "budget": 3500,
       "made": "rewrapped; the owner's colour on a band along the hull"
