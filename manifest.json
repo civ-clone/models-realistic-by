@@ -231,7 +231,7 @@
  "models": {
   "diplomat": {
    "file": "models/diplomat.glb",
-   "sha256": "9bb0055546920289684935c65fe9c9cc04e732333f43197ed21eac64754727ab",
+   "sha256": "ed0d60ec0e126b6c501777bc896636ed343da979952bea583400a6fa396e5212",
    "extent": {
     "across": [
      -0.307,

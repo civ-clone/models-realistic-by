@@ -17,8 +17,8 @@ I made these changes, which are under the same licence:
   Diplomat stands as his idle animation's first frame has him.
 - **Assembly:** the Diplomat's top hat, the Paratroopers' parachute and the Fanatics' torch are each put with the
   model they go with.
-- **The owner's colour:** on each model in the manifest, the faces that take their owner's colour, as `roster.json` says, are a primitive
-  of their own, with a PNG of their own whose alpha is 0 where the colour goes.
+- **The owner's colour:** on each model in the manifest, the faces that take their owner's colour, as `roster.json`
+  says, are a primitive of their own, with a PNG of their own whose alpha is 0 where the colour goes.
 - **Format:** each is a glTF binary with JPEG textures (and that PNG), carrying its credits in `asset.copyright` and
   `asset.extras`.
 
