@@ -380,7 +380,7 @@
   "tank": {
    "file": "models/tank.glb",
    "scale": 0.038983,
-   "sha256": "736622dd96af604a7f5e171282155e673553804abe7da2254bddfdfa8c70d916",
+   "sha256": "5536cffaedaded62980215cf02fb951c36cfc9e42b1e0117d9ca53150ff3c3e0",
    "extent": {
     "across": [
      -1.524,
@@ -396,12 +396,12 @@
    "from": [
     "https://sketchfab.com/3d-models/m4-sherman-06df0fdccda04b97ada8c541508e6fd8"
    ],
-   "made": "rebaked; the owner's colour on the upper hull"
+   "made": "rebaked; the owner's colour on the upper hull and turret"
   },
   "freight": {
    "file": "models/freight.glb",
    "scale": 0.031081,
-   "sha256": "e012b0fc8c02f2b0ccb441eacfc0f1b9efbc857d3a274e31b20cdaec36b22aee",
+   "sha256": "188f39647ed58572a318e0bb7beb2bf0740b98be8abe197683ecfb7b12b31d8a",
    "extent": {
     "across": [
      -1.496,
@@ -666,7 +666,7 @@
   "carrier": {
    "file": "models/carrier.glb",
    "scale": 0.001351,
-   "sha256": "1046e751e502c0c65767056d07a957f16ba03073265da4150e4c7871cde53775",
+   "sha256": "8bf564f047dce73c9f41ba9dbddedcfcce5e3439c2605344495753fd6899649b",
    "extent": {
     "across": [
      -42.063,

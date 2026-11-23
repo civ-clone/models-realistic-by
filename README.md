@@ -9,7 +9,8 @@ Howitzer, Armor, Freight, Nuclear, Cruise Missile, Fighter, Helicopter, Stealth 
 AEGIS Cruiser, Battleship, Submarine and Carrier.
 
 [models-realistic-cc0](https://github.com/civ-clone/models-realistic-cc0) draws the rest of the realistic units, under
-CC0. civ.one's 3D map draws each type from one set, and these types from this one.
+CC0. Some of these types are drawn by [models-cimpletoon](https://github.com/civ-clone/models-cimpletoon) too.
+civ.one's 3D map draws each type from one set.
 
 ## What's here
 
@@ -36,7 +37,7 @@ CC0. civ.one's 3D map draws each type from one set, and these types from this on
 - **The owner's colour:** each model takes its owner's colour on one part, as models-0ad and models-cimpletoon do:
   - **people:** their jacket or robe, and the Paratroopers' parachute;
   - **guns:** the Cannon's carriage and wheels, and the Artillery's and Howitzer's paint;
-  - **vehicles:** the Armor's upper hull, the Mech. Inf.'s hull and the Freight's canvas cover;
+  - **vehicles:** the Armor's upper hull and turret, the Mech. Inf.'s hull and the Freight's canvas cover;
   - **missiles:** the Nuclear's green bands and the Cruise Missile's wings;
   - **aircraft:** their wingtips, and the Helicopter's tail boom;
   - **ships:** a band along the hull, the Galleon's below its rail, the Carrier's island too, and the Submarine's
