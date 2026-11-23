@@ -17,8 +17,8 @@ I made these changes, which are under the same licence:
   Diplomat stands as his idle animation's first frame has him.
 - **Assembly:** the Diplomat's top hat, the Paratroopers' parachute and the Fanatics' torch are each put with the
   model they go with.
-- **The owner's colour:** on each, one part is drawn in its owner's colour, as `roster.json` says: a primitive of its
-  own, with a grey PNG whose alpha marks where the colour goes.
+- **The owner's colour:** on each, the faces that take their owner's colour, as `roster.json` says, are a primitive
+  of their own, with a PNG of their own whose alpha is 0 where the colour goes.
 - **Format:** each is a glTF binary with JPEG textures (and that PNG), carrying its credits in `asset.copyright` and
   `asset.extras`.
 
@@ -31,7 +31,8 @@ You may use, change and share them, for any purpose, if you credit each author a
 licence, and say that they were changed. A credit you can copy for the whole set:
 
 > Models by the authors listed at https://github.com/civ-clone/models-realistic-by/blob/main/CREDITS.md, CC BY 4.0
-> (https://creativecommons.org/licenses/by/4.0/): reduced, rebaked, assembled and converted by dom111.
+> (https://creativecommons.org/licenses/by/4.0/): reduced, rebaked, assembled, given their owner's colour and
+> converted by dom111.
 
 CC BY 4.0 licenses each author's own rights in their model. It grants nothing in anyone else's designs or trademarks,
 such as those of the real vehicles, aircraft and ships these depict.

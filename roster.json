@@ -5,7 +5,7 @@
     "licence": {
       "name": "CC BY 4.0",
       "url": "https://creativecommons.org/licenses/by/4.0/",
-      "attribution": "Models by the authors listed at https://github.com/civ-clone/models-realistic-by/blob/main/CREDITS.md, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/): reduced, rebaked, assembled and converted by dom111."
+      "attribution": "Models by the authors listed at https://github.com/civ-clone/models-realistic-by/blob/main/CREDITS.md, CC BY 4.0 (https://creativecommons.org/licenses/by/4.0/): reduced, rebaked, assembled, given their owner's colour and converted by dom111."
     }
   },
   "date": "22 November 2026",
@@ -378,6 +378,7 @@
           "texture": 512
         }
       },
+      "scale": 0.045,
       "owner": {
         "part": 1,
         "colours": [
@@ -690,7 +691,8 @@
               1
             ]
           }
-        ]
+        ],
+        "cut": true
       },
       "budget": 2500,
       "made": "simplified; stands upright; the owner's colour on the green bands"
@@ -865,9 +867,23 @@
       "owner": {
         "within": [
           {
+            "x": [
+              -10,
+              -1.5
+            ],
             "y": [
-              3,
-              7
+              1.2,
+              3.3
+            ]
+          },
+          {
+            "x": [
+              1.5,
+              10
+            ],
+            "y": [
+              1.2,
+              3.3
             ]
           }
         ],
@@ -1065,13 +1081,21 @@
             ]
           },
           {
+            "x": [
+              -46,
+              -18
+            ],
             "y": [
-              18,
+              16,
               70
+            ],
+            "z": [
+              -108,
+              -78
             ]
           }
         ],
-        "sides": 0.5,
+        "sides": 0.75,
         "cut": true
       },
       "budget": 3500,

@@ -9,8 +9,7 @@ Howitzer, Armor, Freight, Nuclear, Cruise Missile, Fighter, Helicopter, Stealth 
 AEGIS Cruiser, Battleship, Submarine and Carrier.
 
 [models-realistic-cc0](https://github.com/civ-clone/models-realistic-cc0) draws the rest of the realistic units, under
-CC0. Some of these types are drawn by [models-cimpletoon](https://github.com/civ-clone/models-cimpletoon) too.
-civ.one's 3D map draws each type from one set.
+CC0. civ.one's 3D map draws each type from one set, and these types from this one.
 
 ## What's here
 
@@ -24,8 +23,8 @@ civ.one's 3D map draws each type from one set.
   torch, each from a model of its own. The Paratroopers' soldier I generated in Meshy (CC0, made with AI: an image
   from a text prompt with Google's Nano Banana, then a model from the image); the file is CC BY because of its
   parachute. The Paratroopers are one soldier under a canopy 3.2 m wide: draw them once, not as a squad, or the
-  canopies cut through each other. Even drawn once, the canopy makes them 5.9 m tall, 0.55 squares at the set's scale,
-  so they may want a scale of their own.
+  canopies cut through each other. With the canopy they're 5.9 m tall, so they have a scale of their own, 0.045, which
+  draws them 0.26 squares tall, about as tall as a rider; their soldier is drawn smaller than other people.
 - **Animated:** the Fighter keeps its propeller's animation and the Helicopter its rotors' and wheels', each with its
   parts as their nodes place them. The rest are one mesh each, standing still.
 - **Standing and floating:** a model stands on its origin, centred across and along, at its real size in metres. A
@@ -43,10 +42,11 @@ civ.one's 3D map draws each type from one set.
   - **ships:** a band along the hull, the Galleon's below its rail, the Carrier's island too, and the Submarine's
     conning tower.
 
-  Those faces are a primitive of their own, drawn with a material that says `extras.playerColour`. Its PNG is grey
-  where the owner's colour goes, as light as the texture there, with its alpha 0, and civ.one draws it as
-  `rgb × mix(owner, white, alpha)`. The rest of each model is drawn as before. Where it goes is each model's `owner`
-  rule in `roster.json`. The rigged Diplomat has none yet.
+  Those faces are a primitive of their own, drawn with a material that says `extras.playerColour` and a PNG at half
+  the texture's size. Where the owner's colour goes, the PNG is grey, shaded as the texture is there but lifted to a
+  light grey, with its alpha 0, and civ.one draws it as `rgb × mix(owner, white, alpha)`. Where a band or wingtips end
+  partway across a face, the rest of that face is the texture's colour, solid, at that half size. The rest of each
+  model is drawn from its JPEG as before. Where the colour goes is each model's `owner` rule in `roster.json`. The rigged Diplomat has none yet.
 - **Not yet:** the Fighter's markings are taken off, but some ships still carry painted names and numbers.
 - **`manifest.json`:** the set, as civ.one's library describes a set of models:
   - its licence, with the credit to show wherever it's used (`licence.attribution`), and its credits;
