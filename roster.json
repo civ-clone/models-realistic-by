@@ -324,8 +324,30 @@
           "texture": 256
         }
       },
+      "owner": {
+        "colours": [
+          {
+            "s": [
+              0,
+              0.25
+            ],
+            "v": [
+              0.22,
+              0.68
+            ]
+          }
+        ],
+        "within": [
+          {
+            "y": [
+              0.85,
+              1.6
+            ]
+          }
+        ]
+      },
       "budget": 2000,
-      "made": "simplified; frozen in the first frame of its idle; the top hat put on his head"
+      "made": "simplified; frozen in the first frame of its idle; the top hat put on his head; the owner's colour on the jacket"
     },
     "paratrooper": {
       "units": [
@@ -356,8 +378,27 @@
           "texture": 512
         }
       },
+      "owner": {
+        "part": 1,
+        "colours": [
+          {
+            "h": [
+              40,
+              100
+            ],
+            "s": [
+              0.25,
+              1
+            ],
+            "v": [
+              0.08,
+              1
+            ]
+          }
+        ]
+      },
       "budget": 2500,
-      "made": "generated soldier, rewrapped; the parachute, simplified, over him"
+      "made": "generated soldier, rewrapped; the parachute, simplified, over him; the owner's colour on the parachute"
     },
     "fanatic": {
       "units": [
@@ -384,8 +425,34 @@
           "tris": 200
         }
       },
+      "owner": {
+        "colours": [
+          {
+            "h": [
+              10,
+              50
+            ],
+            "s": [
+              0.12,
+              0.6
+            ],
+            "v": [
+              0.12,
+              0.5
+            ]
+          }
+        ],
+        "within": [
+          {
+            "y": [
+              0.2,
+              1.8
+            ]
+          }
+        ]
+      },
       "budget": 2000,
-      "made": "simplified; the torch, simplified, put in his right hand"
+      "made": "simplified; the torch, simplified, put in his right hand; the owner's colour on the robe"
     },
     "mech-inf": {
       "units": [
@@ -403,8 +470,19 @@
         "turn": 90
       },
       "scale": 0.02987,
+      "owner": {
+        "within": [
+          {
+            "y": [
+              1.0,
+              2.4
+            ]
+          }
+        ],
+        "cut": true
+      },
       "budget": 3000,
-      "made": "simplified"
+      "made": "simplified; the owner's colour on the hull"
     },
     "cannon": {
       "units": [
@@ -422,8 +500,26 @@
         "turn": -90
       },
       "scale": 0.04,
+      "owner": {
+        "colours": [
+          {
+            "h": [
+              340,
+              25
+            ],
+            "s": [
+              0.55,
+              1
+            ],
+            "v": [
+              0.05,
+              1
+            ]
+          }
+        ]
+      },
       "budget": 3000,
-      "made": "simplified"
+      "made": "simplified; the owner's colour on the carriage and wheels"
     },
     "artillery": {
       "units": [
@@ -444,8 +540,22 @@
         "turn": -130.5
       },
       "scale": 0.04,
+      "owner": {
+        "colours": [
+          {
+            "h": [
+              90,
+              180
+            ],
+            "s": [
+              0.15,
+              1
+            ]
+          }
+        ]
+      },
       "budget": 3000,
-      "made": "the second gun in the file left out; simplified"
+      "made": "the second gun in the file left out; simplified; the owner's colour on the gun's paint"
     },
     "howitzer": {
       "units": [
@@ -463,8 +573,26 @@
         "turn": 0
       },
       "scale": 0.0225,
+      "owner": {
+        "colours": [
+          {
+            "h": [
+              40,
+              110
+            ],
+            "s": [
+              0.1,
+              1
+            ],
+            "v": [
+              0.1,
+              1
+            ]
+          }
+        ]
+      },
       "budget": 3000,
-      "made": "simplified"
+      "made": "simplified; the owner's colour on the gun's paint"
     },
     "tank": {
       "units": [
@@ -482,8 +610,19 @@
         "turn": 0
       },
       "scale": 0.038983,
+      "owner": {
+        "within": [
+          {
+            "y": [
+              1.95,
+              3.2
+            ]
+          }
+        ],
+        "cut": true
+      },
       "budget": 3000,
-      "made": "rebaked"
+      "made": "rebaked; the owner's colour on the upper hull"
     },
     "freight": {
       "units": [
@@ -501,8 +640,23 @@
         "turn": 0
       },
       "scale": 0.031081,
+      "owner": {
+        "within": [
+          {
+            "y": [
+              1.6,
+              3.2
+            ],
+            "z": [
+              -3.7,
+              0.9
+            ]
+          }
+        ],
+        "cut": true
+      },
       "budget": 3000,
-      "made": "simplified"
+      "made": "simplified; the owner's colour on the canvas cover"
     },
     "nuclear": {
       "units": [
@@ -520,8 +674,26 @@
         "turn": 0
       },
       "scale": 0.006471,
+      "owner": {
+        "colours": [
+          {
+            "h": [
+              90,
+              150
+            ],
+            "s": [
+              0.2,
+              1
+            ],
+            "v": [
+              0.1,
+              1
+            ]
+          }
+        ]
+      },
       "budget": 2500,
-      "made": "simplified; stands upright"
+      "made": "simplified; stands upright; the owner's colour on the green bands"
     },
     "cruise-missile": {
       "units": [
@@ -539,8 +711,25 @@
         "turn": 90
       },
       "scale": 0.019277,
+      "owner": {
+        "within": [
+          {
+            "x": [
+              -3.7,
+              -0.8
+            ]
+          },
+          {
+            "x": [
+              0.8,
+              3.7
+            ]
+          }
+        ],
+        "cut": true
+      },
       "budget": 2500,
-      "made": "simplified"
+      "made": "simplified; the owner's colour on the wings"
     },
     "fighter": {
       "units": [
@@ -568,8 +757,26 @@
         "keep": true
       },
       "scale": 0.016176,
+      "owner": {
+        "part": 4,
+        "within": [
+          {
+            "x": [
+              -6.7,
+              -3.3
+            ]
+          },
+          {
+            "x": [
+              3.3,
+              6.7
+            ]
+          }
+        ],
+        "cut": true
+      },
       "budget": 2500,
-      "made": "its markings left out; rebaked; propeller animation kept"
+      "made": "its markings left out; rebaked; propeller animation kept; the owner's colour on the wingtips"
     },
     "helicopter": {
       "units": [
@@ -588,8 +795,19 @@
         "keep": true
       },
       "scale": 0.011429,
+      "owner": {
+        "within": [
+          {
+            "z": [
+              -8.5,
+              -3.0
+            ]
+          }
+        ],
+        "cut": true
+      },
       "budget": 2500,
-      "made": "simplified; rotor and wheel animation kept"
+      "made": "simplified; rotor and wheel animation kept; the owner's colour on the tail boom"
     },
     "stealth-fighter": {
       "units": [
@@ -607,8 +825,25 @@
         "turn": -90
       },
       "scale": 0.0085,
+      "owner": {
+        "within": [
+          {
+            "x": [
+              -6.6,
+              -3.5
+            ]
+          },
+          {
+            "x": [
+              3.5,
+              6.6
+            ]
+          }
+        ],
+        "cut": true
+      },
       "budget": 2500,
-      "made": "rebaked"
+      "made": "rebaked; the owner's colour on the wingtips"
     },
     "galleon": {
       "units": [
@@ -627,8 +862,20 @@
         "draught": 4.5
       },
       "scale": 0.00825,
+      "owner": {
+        "within": [
+          {
+            "y": [
+              3,
+              7
+            ]
+          }
+        ],
+        "sides": 0.5,
+        "cut": true
+      },
       "budget": 3500,
-      "made": "simplified"
+      "made": "simplified; the owner's colour on a band along the hull"
     },
     "destroyer": {
       "units": [
@@ -648,8 +895,20 @@
         "draught": 3.8
       },
       "scale": 0.003423,
+      "owner": {
+        "within": [
+          {
+            "y": [
+              0,
+              3.2
+            ]
+          }
+        ],
+        "sides": 0.5,
+        "cut": true
+      },
       "budget": 3500,
-      "made": "rewrapped"
+      "made": "rewrapped; the owner's colour on a band along the hull"
     },
     "cruiser": {
       "units": [
@@ -668,8 +927,20 @@
         "draught": 7.2
       },
       "scale": 0.002204,
+      "owner": {
+        "within": [
+          {
+            "y": [
+              0,
+              7
+            ]
+          }
+        ],
+        "sides": 0.5,
+        "cut": true
+      },
       "budget": 3500,
-      "made": "simplified"
+      "made": "simplified; the owner's colour on a band along the hull"
     },
     "missile-cruiser": {
       "units": [
@@ -689,8 +960,20 @@
         "draught": 8.0
       },
       "scale": 0.002662,
+      "owner": {
+        "within": [
+          {
+            "y": [
+              0,
+              8
+            ]
+          }
+        ],
+        "sides": 0.5,
+        "cut": true
+      },
       "budget": 3500,
-      "made": "rewrapped"
+      "made": "rewrapped; the owner's colour on a band along the hull"
     },
     "battleship": {
       "units": [
@@ -710,8 +993,20 @@
         "draught": 9.3
       },
       "scale": 0.001673,
+      "owner": {
+        "within": [
+          {
+            "y": [
+              0,
+              9.5
+            ]
+          }
+        ],
+        "sides": 0.5,
+        "cut": true
+      },
       "budget": 3500,
-      "made": "rewrapped"
+      "made": "rewrapped; the owner's colour on a band along the hull"
     },
     "submarine": {
       "units": [
@@ -730,8 +1025,19 @@
         "draught": 5.5
       },
       "scale": 0.005357,
+      "owner": {
+        "within": [
+          {
+            "y": [
+              2.0,
+              7
+            ]
+          }
+        ],
+        "cut": true
+      },
       "budget": 3500,
-      "made": "simplified"
+      "made": "simplified; the owner's colour on the conning tower"
     },
     "carrier": {
       "units": [
@@ -750,8 +1056,26 @@
         "draught": 12.0
       },
       "scale": 0.001351,
+      "owner": {
+        "within": [
+          {
+            "y": [
+              0,
+              12
+            ]
+          },
+          {
+            "y": [
+              18,
+              70
+            ]
+          }
+        ],
+        "sides": 0.5,
+        "cut": true
+      },
       "budget": 3500,
-      "made": "rebaked"
+      "made": "rebaked; the owner's colour on a band along the hull, and the island"
     }
   },
   "extras": {

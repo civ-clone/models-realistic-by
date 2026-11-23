@@ -15,7 +15,8 @@ civ.one's 3D map draws each type from one set.
 ## What's here
 
 - **`models/*.glb`:** one glTF binary for each model, facing `+z`, with one baked colour texture (JPEG, 512 px for
-  people and 1024 px for the rest), and a second for a prop. Each was cut down to its budget where it was over (2,000 triangles for a
+  people and 1024 px for the rest), a second for a prop, and a PNG at half the size of the one it goes with for its
+  owner's colour. Each was cut down to its budget where it was over (2,000 triangles for a
   person, 2,500 for the Paratroopers with their parachute, 3,000 for a vehicle or gun, 2,500 for an aircraft or
   missile, 3,500 for a ship), and its colour baked into the texture. Each carries its credits in `asset.copyright`,
   and its credits, licence and what was done to it in `asset.extras`.
@@ -33,8 +34,20 @@ civ.one's 3D map draws each type from one set.
 - **`models/rigged/diplomat.glb`:** not in the manifest. The Diplomat with its own 72-bone skeleton and its author's 25
   animations (idle, walking, running, talking, sitting, turning, a jump, blinks and mouth shapes), the hat on its head
   bone. Play an animation: at rest it lies flat.
-- **Not yet:** none has a mask for its owner's colour, as models-0ad and models-cimpletoon have. The Fighter's
-  markings are taken off, but some ships still carry painted names and numbers.
+- **The owner's colour:** each model takes its owner's colour on one part, as models-0ad and models-cimpletoon do:
+  - **people:** their jacket or robe, and the Paratroopers' parachute;
+  - **guns:** the Cannon's carriage and wheels, and the Artillery's and Howitzer's paint;
+  - **vehicles:** the Armor's upper hull, the Mech. Inf.'s hull and the Freight's canvas cover;
+  - **missiles:** the Nuclear's green bands and the Cruise Missile's wings;
+  - **aircraft:** their wingtips, and the Helicopter's tail boom;
+  - **ships:** a band along the hull, the Galleon's below its rail, the Carrier's island too, and the Submarine's
+    conning tower.
+
+  Those faces are a primitive of their own, drawn with a material that says `extras.playerColour`. Its PNG is grey
+  where the owner's colour goes, as light as the texture there, with its alpha 0, and civ.one draws it as
+  `rgb × mix(owner, white, alpha)`. The rest of each model is drawn as before. Where it goes is each model's `owner`
+  rule in `roster.json`. The rigged Diplomat has none yet.
+- **Not yet:** the Fighter's markings are taken off, but some ships still carry painted names and numbers.
 - **`manifest.json`:** the set, as civ.one's library describes a set of models:
   - its licence, with the credit to show wherever it's used (`licence.attribution`), and its credits;
   - the scale it's drawn at, and any model's own where it isn't the set's;
@@ -44,8 +57,8 @@ civ.one's 3D map draws each type from one set.
 - **`roster.json`:** what's built, and how:
   - each source: its page, author and licence, where its file came from and that file's SHA-256;
   - each model: the unit types it draws, its source, any parts left out, how it's cut (part by part, or wrapped in one
-    new surface), how it's turned and sized, how deep a ship floats, the prop put in and how, its budget, and its
-    scale where it isn't the set's.
+    new surface), how it's turned and sized, how deep a ship floats, the prop put in and how, where its owner's
+    colour goes, its budget, and its scale where it isn't the set's.
 
   The set's scale draws a 1.8 m person as tall as the other sets' people, 0.168 squares. The 3D map draws units
   bigger than life, so the rest have scales of their own, close to models-cimpletoon's sizes: vehicles and guns

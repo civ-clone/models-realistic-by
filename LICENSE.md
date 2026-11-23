@@ -17,7 +17,9 @@ I made these changes, which are under the same licence:
   Diplomat stands as his idle animation's first frame has him.
 - **Assembly:** the Diplomat's top hat, the Paratroopers' parachute and the Fanatics' torch are each put with the
   model they go with.
-- **Format:** each is a glTF binary with JPEG textures, carrying its credits in `asset.copyright` and
+- **The owner's colour:** on each, one part is drawn in its owner's colour, as `roster.json` says: a primitive of its
+  own, with a grey PNG whose alpha marks where the colour goes.
+- **Format:** each is a glTF binary with JPEG textures (and that PNG), carrying its credits in `asset.copyright` and
   `asset.extras`.
 
 The Paratroopers' soldier I generated for civ.one in [Meshy](https://www.meshy.ai) on a paid plan: from a text prompt,
