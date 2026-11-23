@@ -15,7 +15,8 @@ civ.one's 3D map draws each type from one set.
 ## What's here
 
 - **`models/*.glb`:** one glTF binary for each model, facing `+z`, with one baked colour texture (JPEG, 512 px for
-  people and 1024 px for the rest), and a second for a prop. Each was cut down to its budget where it was over (2,000 triangles for a
+  people and 1024 px for the rest), a second for a prop, and a PNG at half the size of the one it goes with for its
+  owner's colour. Each was cut down to its budget where it was over (2,000 triangles for a
   person, 2,500 for the Paratroopers with their parachute, 3,000 for a vehicle or gun, 2,500 for an aircraft or
   missile, 3,500 for a ship), and its colour baked into the texture. Each carries its credits in `asset.copyright`,
   and its credits, licence and what was done to it in `asset.extras`.
@@ -23,8 +24,8 @@ civ.one's 3D map draws each type from one set.
   torch, each from a model of its own. The Paratroopers' soldier I generated in Meshy (CC0, made with AI: an image
   from a text prompt with Google's Nano Banana, then a model from the image); the file is CC BY because of its
   parachute. The Paratroopers are one soldier under a canopy 3.2 m wide: draw them once, not as a squad, or the
-  canopies cut through each other. Even drawn once, the canopy makes them 5.9 m tall, 0.55 squares at the set's scale,
-  so they may want a scale of their own.
+  canopies cut through each other. With the canopy they're 5.9 m tall, so they have a scale of their own, 0.045, which
+  draws them 0.26 squares tall, about as tall as a rider; their soldier is drawn smaller than other people.
 - **Animated:** the Fighter keeps its propeller's animation and the Helicopter its rotors' and wheels', each with its
   parts as their nodes place them. The rest are one mesh each, standing still.
 - **Standing and floating:** a model stands on its origin, centred across and along, at its real size in metres. A
@@ -33,8 +34,22 @@ civ.one's 3D map draws each type from one set.
 - **`models/rigged/diplomat.glb`:** not in the manifest. The Diplomat with its own 72-bone skeleton and its author's 25
   animations (idle, walking, running, talking, sitting, turning, a jump, blinks and mouth shapes), the hat on its head
   bone. Play an animation: at rest it lies flat.
-- **Not yet:** none has a mask for its owner's colour, as models-0ad and models-cimpletoon have. The Fighter's
-  markings are taken off, but some ships still carry painted names and numbers.
+- **The owner's colour:** each model takes its owner's colour on one part, as models-0ad and models-cimpletoon do:
+  - **people:** their jacket or robe (and the Diplomat's tie), and the Paratroopers' parachute;
+  - **guns:** the Cannon's carriage and wheels, and the Artillery's and Howitzer's paint;
+  - **vehicles:** the Armor's upper hull and turret, the Mech. Inf.'s hull and the Freight's canvas cover;
+  - **missiles:** the Nuclear's green bands and the Cruise Missile's wings;
+  - **aircraft:** their wingtips, and the Helicopter's tail boom;
+  - **ships:** a band along the hull, the Galleon's below its rail, the Carrier's island too, and the Submarine's
+    conning tower.
+
+  Those faces are a primitive of their own, drawn with a material that says `extras.playerColour` and a PNG at half
+  the texture's size. Where the owner's colour goes, the PNG is grey, shaded as the texture is there but lifted to a
+  light grey, with its alpha 0, and civ.one draws it as `rgb × mix(owner, white, alpha)`. Where a rule goes texel by
+  texel (`cut`), as for bands and wingtips, and the colour ends partway across a face, the rest of that face is the
+  texture's colour, solid, at that half size. The rest of each model is drawn from its JPEG as before. Where the
+  colour goes is each model's `owner` rule in `roster.json`. The rigged Diplomat has none yet.
+- **Not yet:** the Fighter's markings are taken off, but some ships still carry painted names and numbers.
 - **`manifest.json`:** the set, as civ.one's library describes a set of models:
   - its licence, with the credit to show wherever it's used (`licence.attribution`), and its credits;
   - the scale it's drawn at, and any model's own where it isn't the set's;
@@ -44,8 +59,8 @@ civ.one's 3D map draws each type from one set.
 - **`roster.json`:** what's built, and how:
   - each source: its page, author and licence, where its file came from and that file's SHA-256;
   - each model: the unit types it draws, its source, any parts left out, how it's cut (part by part, or wrapped in one
-    new surface), how it's turned and sized, how deep a ship floats, the prop put in and how, its budget, and its
-    scale where it isn't the set's.
+    new surface), how it's turned and sized, how deep a ship floats, the prop put in and how, where its owner's
+    colour goes, its budget, and its scale where it isn't the set's.
 
   The set's scale draws a 1.8 m person as tall as the other sets' people, 0.168 squares. The 3D map draws units
   bigger than life, so the rest have scales of their own, close to models-cimpletoon's sizes: vehicles and guns
@@ -71,6 +86,10 @@ python3 -I tools/build.py --blender /path/to/blender --originals /path/to/origin
 Name models to build only those. Blender runs with its factory settings and with scripts in files turned off, and
 reads the originals only as data. Without `--originals`, `build.py` only writes each model's `asset.copyright` and
 `asset.extras`, the manifest and the credits.
+
+The owner's colour goes on last, and `owner.py` won't colour a file that has it already, so a changed `owner`
+rule takes effect only when its model is built again from its original. `check.py` checks each rule's form, not
+that the file follows it.
 
 The originals:
 - **Most:** the copies in [Objaverse](https://huggingface.co/datasets/allenai/objaverse), whose links the roster
