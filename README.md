@@ -57,18 +57,24 @@ civ.one's 3D map draws each type from one set.
   it stands in the file, the way each bone should point, and any pieces that move whole (the torch). Blender weights
   each point to the bones near it, and the file's points and normals are moved; nothing else in it changes but a mark
   on the mesh (`extras.posed`).
+- **Rigged and animated:** nothing yet, but for the Diplomat's own skeleton and clips above. `tools/blender/rig.py`
+  rigs a posed figure with its clips, as models-realistic-cc0's Partisans are: as its `rig` in `roster.json` says, into
+  `models/rigged/<model>.glb`, which the manifest then names (`rigged`). That's where the Diplomat's extra is, so it
+  would move before the Diplomat were rigged; `build.py` and `check.py` refuse the two in one place.
 - **Not yet:** the Fighter's markings are taken off, but some ships still carry painted names and numbers.
 - **`manifest.json`:** the set, as civ.one's library describes a set of models:
   - its licence, with the credit to show wherever it's used (`licence.attribution`), and its credits;
   - the scale it's drawn at, and any model's own where it isn't the set's;
   - each model's file and its SHA-256, its triangles, how far it reaches (`extent`, in metres), its animations, where
     it's from and what was done to it;
+  - a rigged model's rigged file, its SHA-256, its clips by role, and where its shots leave from, by clip (`rigged`);
   - which unit types each model draws (`names.unit`, by the engine's names for them).
 - **`roster.json`:** what's built, and how:
   - each source: its page, author and licence, where its file came from and that file's SHA-256;
   - each model: the unit types it draws, its source, any parts left out, how it's cut (part by part, or wrapped in one
     new surface), how it's turned and sized, how deep a ship floats, the prop put in and how, where its owner's
-    colour goes, how a figure is posed, its budget, and its scale where it isn't the set's.
+    colour goes, how a figure is posed, how it's rigged and its clips, its budget, and its scale where it isn't the
+    set's.
 
   The set's scale draws a 1.8 m person as tall as the other sets' people, 0.168 squares. The 3D map draws units
   bigger than life, so the rest have scales of their own, close to models-cimpletoon's sizes: vehicles and guns
