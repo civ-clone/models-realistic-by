@@ -58,7 +58,8 @@ civ.one's 3D map draws each type from one set.
   each point to the bones near it, and the file's points and normals are moved; nothing else in it changes but a mark
   on the mesh (`extras.posed`).
 - **Rigged and animated:** nothing yet, but for the Diplomat's own skeleton and clips above. `tools/blender/rig.py`
-  rigs a posed figure with its clips, as models-realistic-cc0's Partisans are: as its `rig` in `roster.json` says, into
+  rigs a posed figure with its clips, as models-realistic-cc0's Partisans and riflemen are (a held weapon can be
+  brought to the shoulder in both hands, and fire from its muzzle): as its `rig` in `roster.json` says, into
   `models/rigged/<model>.glb`, which the manifest then names (`rigged`). That's where the Diplomat's extra is, so it
   would move before the Diplomat were rigged; `build.py` and `check.py` refuse the two in one place.
 - **Not yet:** the Fighter's markings are taken off, but some ships still carry painted names and numbers.
