@@ -57,11 +57,16 @@ civ.one's 3D map draws each type from one set.
   it stands in the file, the way each bone should point, and any pieces that move whole (the torch). Blender weights
   each point to the bones near it, and the file's points and normals are moved; nothing else in it changes but a mark
   on the mesh (`extras.posed`).
-- **Rigged and animated:** nothing yet, but for the Diplomat's own skeleton and clips above. `tools/blender/rig.py`
+- **Rigged and animated:** the Fanatics, besides the Diplomat's own skeleton and clips above. `tools/blender/rig.py`
   rigs a posed figure with its clips, as models-realistic-cc0's Partisans and riflemen are (a held weapon can be
   brought to the shoulder in both hands, and fire from its muzzle): as its `rig` in `roster.json` says, into
   `models/rigged/<model>.glb`, which the manifest then names (`rigged`). That's where the Diplomat's extra is, so it
   would move before the Diplomat were rigged; `build.py` and `check.py` refuse the two in one place.
+
+  The Fanatics have models-realistic-cc0's Partisans' `idle` (3 s) and `move` (1 s), which loop, and `die` (1.5 s),
+  their torch held up as they stand (and lying beside them once they've fallen), and a `fight` of their own (1.5 s,
+  played once): the torch drawn back over the shoulder and brought down like a hammer, landing just after 0.5 s, its
+  head forward and down. It's a blow, so nothing flies.
 - **Not yet:** the Fighter's markings are taken off, but some ships still carry painted names and numbers.
 - **`manifest.json`:** the set, as civ.one's library describes a set of models:
   - its licence, with the credit to show wherever it's used (`licence.attribution`), and its credits;
