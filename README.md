@@ -27,7 +27,7 @@ civ.one's 3D map draws each type from one set.
   canopies cut through each other. With the canopy they're 5.9 m tall, so they have a scale of their own, 0.045, which
   draws them 0.26 squares tall, about as tall as a rider; their soldier is drawn smaller than other people.
 - **Animated:** the Fighter keeps its propeller's animation and the Helicopter its rotors' and wheels', each with its
-  parts as their nodes place them. The rest are one mesh each, standing still.
+  parts as their nodes place them. The rest are one mesh each, standing still (but for the rigged figures below).
 - **Standing and floating:** a model stands on its origin, centred across and along, at its real size in metres. A
   ship floats with its origin at the waterline, its draught under it (`extent.draught`). Aircraft rest on the ground;
   the 3D map lifts them.
@@ -64,9 +64,10 @@ civ.one's 3D map draws each type from one set.
   would move before the Diplomat were rigged; `build.py` and `check.py` refuse the two in one place.
 
   The Fanatics have models-realistic-cc0's Partisans' `idle` (3 s) and `move` (1 s), which loop, and `die` (1.5 s),
-  their torch held up as they stand (and lying beside them once they've fallen), and a `fight` of their own (1.5 s,
-  played once): the torch drawn back over the shoulder and brought down like a hammer, landing just after 0.5 s, its
-  head forward and down. It's a blow, so nothing flies.
+  their torch held up as they stand, and a `fight` of their own (1.5 s, played once): the torch drawn back by the
+  shoulder and thrust out at arm's length from 0.5 s, upright, its burning head at an enemy's face. It's a thrust, so
+  nothing flies. Fallen, they lie on their hood's thick cowl, their back a few centimetres off the ground, the torch
+  on the ground beside them.
 - **Not yet:** the Fighter's markings are taken off, but some ships still carry painted names and numbers.
 - **`manifest.json`:** the set, as civ.one's library describes a set of models:
   - its licence, with the credit to show wherever it's used (`licence.attribution`), and its credits;

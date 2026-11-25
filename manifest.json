@@ -294,7 +294,7 @@
    "made": "simplified; the torch, simplified, put in his right hand; the owner's colour on the robe; posed, his left arm at his side and the torch held upright in his right hand",
    "rigged": {
     "file": "models/rigged/fanatic.glb",
-    "sha256": "a0d4be8985c6043ac168fca7f23a5030c4268772a23c6c785592cacbc22ba3ca",
+    "sha256": "02d66bdeac70eb8b761cacc097192fd4872ad0ff64afebfda9b8752d9305b001",
     "clips": {
      "idle": "idle",
      "move": "move",
