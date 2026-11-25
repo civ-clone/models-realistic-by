@@ -66,8 +66,8 @@ civ.one's 3D map draws each type from one set.
 
   The Fanatics have models-realistic-cc0's Partisans' `idle` (3 s) and `move` (1 s), which loop, and `die` (1.5 s),
   their torch held up as they stand, and a `fight` of their own (1.5 s, played once): the torch drawn back by the
-  shoulder and thrust out at arm's length from 0.5 s, upright, its burning head at an enemy's face. It's a thrust, so
-  nothing flies. Fallen, they lie along the ground from their hood's thick cowl to their heels, their back a few
+  shoulder and thrust out at arm's length, upright, its burning head at an enemy's face, landing at 0.5 s (its
+  `strike`). It's a thrust, so nothing flies. Fallen, they lie along the ground from their hood's thick cowl to their heels, their back a few
   centimetres up, the torch on the ground beside them.
 - **Not yet:** the Fighter's markings are taken off, but some ships still carry painted names and numbers.
 - **`manifest.json`:** the set, as civ.one's library describes a set of models:
