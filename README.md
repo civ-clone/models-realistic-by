@@ -27,7 +27,7 @@ civ.one's 3D map draws each type from one set.
   canopies cut through each other. With the canopy they're 5.9 m tall, so they have a scale of their own, 0.045, which
   draws them 0.26 squares tall, about as tall as a rider; their soldier is drawn smaller than other people.
 - **Animated:** the Fighter keeps its propeller's animation and the Helicopter its rotors' and wheels', each with its
-  parts as their nodes place them. The rest are one mesh each, standing still.
+  parts as their nodes place them. The rest are one mesh each, standing still (but for the rigged figures below).
 - **Standing and floating:** a model stands on its origin, centred across and along, at its real size in metres. A
   ship floats with its origin at the waterline, its draught under it (`extent.draught`). Aircraft rest on the ground;
   the 3D map lifts them.
@@ -49,26 +49,34 @@ civ.one's 3D map draws each type from one set.
   texel (`cut`), as for bands and wingtips, and the colour ends partway across a face, the rest of that face is the
   texture's colour, solid, at that half size. The rest of each model is drawn from its JPEG as before. Where the
   colour goes is each model's `owner` rule in `roster.json`. The rigged Diplomat has none yet.
-- **Poses:** the Fanatics, made standing with their arms held out, hold their torch upright at their side, the other
-  arm down. The Diplomat stands as in the first frame of his idle, and the Paratroopers' soldier hangs under his
-  parachute as he was made.
+- **Poses:** the Fanatics, made standing with their arms held out and their hands open, hold their torch upright at
+  their side in a fist, the other arm down, its hand curled and its fingers together. The Diplomat stands as in the
+  first frame of his idle, and the Paratroopers' soldier hangs under his parachute as he was made.
 
   A figure is posed by `tools/blender/stance.py`, as its `stance` in `roster.json` says: a skeleton fitted to it where
-  it stands in the file, the way each bone should point, and any pieces that move whole (the torch). Blender weights
-  each point to the bones near it, and the file's points and normals are moved; nothing else in it changes but a mark
-  on the mesh (`extras.posed`).
-- **Rigged and animated:** nothing yet, but for the Diplomat's own skeleton and clips above. `tools/blender/rig.py`
+  it stands in the file, the way each bone should point, any pieces that move whole (the torch), and how a hand's
+  fingers curl (`fingers`: the Fanatics' right hand a fist, which holds the torch across its palm, its fingers closed on
+  the shaft, and their left curled, its fingers drawn together). Blender weights each point to the bones near it, and
+  the file's points and normals are moved; nothing else in it changes but a mark on the mesh (`extras.posed`).
+- **Rigged and animated:** the Fanatics, besides the Diplomat's own skeleton and clips above. `tools/blender/rig.py`
   rigs a posed figure with its clips, as models-realistic-cc0's Partisans and riflemen are (a held weapon can be
   brought to the shoulder in both hands, and fire from its muzzle): as its `rig` in `roster.json` says, into
   `models/rigged/<model>.glb`, which the manifest then names (`rigged`). That's where the Diplomat's extra is, so it
   would move before the Diplomat were rigged; `build.py` and `check.py` refuse the two in one place.
+
+  The Fanatics have models-realistic-cc0's Partisans' `idle` (3 s) and `move` (1 s), which loop, and `die` (1.5 s),
+  their torch held up as they stand, and a `fight` of their own (1.5 s, played once): the torch drawn back by the
+  shoulder and thrust out at arm's length, upright, its burning head at an enemy's face, landing at 0.5 s (its
+  `strike`). It's a thrust, so nothing flies. Fallen, they lie along the ground from their hood's thick cowl to their
+  robe's hem and right heel, their back a few centimetres up, the torch on the ground beside them.
 - **Not yet:** the Fighter's markings are taken off, but some ships still carry painted names and numbers.
 - **`manifest.json`:** the set, as civ.one's library describes a set of models:
   - its licence, with the credit to show wherever it's used (`licence.attribution`), and its credits;
   - the scale it's drawn at, and any model's own where it isn't the set's;
   - each model's file and its SHA-256, its triangles, how far it reaches (`extent`, in metres), its animations, where
     it's from and what was done to it;
-  - a rigged model's rigged file, its SHA-256, its clips by role, and where its shots leave from, by clip (`rigged`);
+  - a rigged model's rigged file, its SHA-256, its clips by role, where its shots leave from, by clip, and when a
+    blow lands, for a fight with no shots, such as the Fanatics' (`strikes`, by clip) (`rigged`);
   - which unit types each model draws (`names.unit`, by the engine's names for them).
 - **`roster.json`:** what's built, and how:
   - each source: its page, author and licence, where its file came from and that file's SHA-256;

@@ -274,15 +274,15 @@
   },
   "fanatic": {
    "file": "models/fanatic.glb",
-   "sha256": "1599cc750cf043353caf25e017a128da73d0b8385d8bae317e763d98847d99c1",
+   "sha256": "f2ce3d72734c51861fb3a369578851bae4f8ba71e183b3eacab884674784742d",
    "extent": {
     "across": [
      -0.356,
      0.356
     ],
     "along": [
-     -0.283,
-     0.283
+     -0.273,
+     0.336
     ],
     "height": 1.8
    },
@@ -291,7 +291,20 @@
     "https://sketchfab.com/3d-models/mendicant-monk-low-poly-36e72d20f4354cdc8de26c4aa8ef00bb",
     "https://sketchfab.com/3d-models/lit-torch-free-download-3abbd8a21c1d402495c49b94e6c6a37c"
    ],
-   "made": "simplified; the torch, simplified, put in his right hand; the owner's colour on the robe; posed, his left arm at his side and the torch held upright in his right hand"
+   "made": "simplified; the torch, simplified, put in his right hand; the owner's colour on the robe; posed, his hands curled, the right a fist round the torch held upright, the left at his side",
+   "rigged": {
+    "file": "models/rigged/fanatic.glb",
+    "sha256": "e53eb74a44859738246c633f4c74f5e750264e9e742cf5219bdcc0fd0045a192",
+    "clips": {
+     "idle": "idle",
+     "move": "move",
+     "fight": "fight",
+     "die": "die"
+    },
+    "strikes": {
+     "fight": 0.5
+    }
+   }
   },
   "mech-inf": {
    "file": "models/mech-inf.glb",
