@@ -51,32 +51,44 @@ civ.one's 3D map draws each type from one set.
   colour goes is each model's `owner` rule in `roster.json`. The rigged Diplomat has none yet.
 - **Poses:** the Fanatics, made standing with their arms held out and their hands open, hold their torch upright at
   their side in a fist, the other arm down, its hand curled and its fingers together. The Diplomat stands as in the
-  first frame of his idle, and the Paratroopers' soldier hangs under his parachute as he was made.
+  first frame of his idle. The Paratroopers' soldier, made standing with his arms held out, stands under his parachute
+  with his right hand closed on the pistol grip of the SMG slung across his belly and his left hand up, closed on his
+  left riser.
 
   A figure is posed by `tools/blender/stance.py`, as its `stance` in `roster.json` says: a skeleton fitted to it where
-  it stands in the file, the way each bone should point, any pieces that move whole (the torch), and how a hand's
-  fingers curl (`fingers`: the Fanatics' right hand a fist, which holds the torch across its palm, its fingers closed on
-  the shaft, and their left curled, its fingers drawn together). Blender weights each point to the bones near it, and
-  the file's points and normals are moved; nothing else in it changes but a mark on the mesh (`extras.posed`).
-- **Rigged and animated:** the Fanatics, besides the Diplomat's own skeleton and clips above. `tools/blender/rig.py`
-  rigs a posed figure with its clips, as models-realistic-cc0's Partisans and riflemen are (a held weapon can be
-  brought to the shoulder in both hands, and fire from its muzzle): as its `rig` in `roster.json` says, into
-  `models/rigged/<model>.glb`, which the manifest then names (`rigged`). That's where the Diplomat's extra is, so it
-  would move before the Diplomat were rigged; `build.py` and `check.py` refuse the two in one place.
+  it stands in the file, the way each bone should point, any pieces that move whole (the torch; the Paratroopers' SMG,
+  carried by his chest as its sling does, and his canopy, carried by his hips, its risers' ends by his chest), and how
+  a hand's fingers curl (`fingers`: the Fanatics' right hand a fist, which holds the torch across its palm, its
+  fingers closed on the shaft, and their left curled, its fingers drawn together; the Paratroopers' both closed).
+  Blender weights each point to the bones near it, and the file's points and normals are moved; nothing else in it
+  changes but a mark on the mesh (`extras.posed`).
+- **Rigged and animated:** the Fanatics and Paratroopers, besides the Diplomat's own skeleton and clips above.
+  `tools/blender/rig.py` rigs a posed figure with its clips, as models-realistic-cc0's Partisans and riflemen are (a
+  held weapon can be brought to the shoulder in both hands, and fire from its muzzle): as its `rig` in `roster.json`
+  says, into `models/rigged/<model>.glb`, which the manifest then names (`rigged`). That's where the Diplomat's extra
+  is, so it would move before the Diplomat were rigged; `build.py` and `check.py` refuse the two in one place.
 
   The Fanatics have models-realistic-cc0's Partisans' `idle` (3 s) and `move` (1 s), which loop, and `die` (1.5 s),
   their torch held up as they stand, and a `fight` of their own (1.5 s, played once): the torch drawn back by the
   shoulder and thrust out at arm's length, upright, its burning head at an enemy's face, landing at 0.5 s (its
   `strike`). It's a thrust, so nothing flies. Fallen, they lie along the ground from their hood's thick cowl to their
   robe's hem and right heel, their back a few centimetres up, the torch on the ground beside them.
+
+  The Paratroopers stay under their canopy. In `idle` (3 s) it sways a little either way above him as he looks up at
+  it now and then; in `move` (2.4 s) he and it swing to and fro, his legs loose. In `fight` (1.5 s, played once) he
+  braces, turns the SMG slung across his belly to the front and fires a three-round burst from the hip (bullets, at
+  0.5, 0.625 and 0.75 s). His SMG is part of him, not a prop of its own (his prop is the parachute), so its shots
+  leave from a `muzzle` the rig puts on his chest's joint at the barrel's end. In `die` (1.5 s) he's hit and goes limp
+  in the harness, his head falling forward, his arms dropping off the gun and riser and his knees giving.
 - **Not yet:** the Fighter's markings are taken off, but some ships still carry painted names and numbers.
 - **`manifest.json`:** the set, as civ.one's library describes a set of models:
   - its licence, with the credit to show wherever it's used (`licence.attribution`), and its credits;
   - the scale it's drawn at, and any model's own where it isn't the set's;
   - each model's file and its SHA-256, its triangles, how far it reaches (`extent`, in metres), its animations, where
     it's from and what was done to it;
-  - a rigged model's rigged file, its SHA-256, its clips by role, where its shots leave from, by clip, and when a
-    blow lands, for a fight with no shots, such as the Fanatics' (`strikes`, by clip) (`rigged`);
+  - a rigged model's rigged file, its SHA-256, its clips by role, where its shots leave from (the prop, or a `muzzle`
+    node), by clip, and when a blow lands, for a fight with no shots, such as the Fanatics' (`strikes`, by clip)
+    (`rigged`);
   - which unit types each model draws (`names.unit`, by the engine's names for them).
 - **`roster.json`:** what's built, and how:
   - each source: its page, author and licence, where its file came from and that file's SHA-256;

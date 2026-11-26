@@ -253,7 +253,7 @@
   "paratrooper": {
    "file": "models/paratrooper.glb",
    "scale": 0.045,
-   "sha256": "7a6703db89581c8bc92bbc9e32ef2afe466e995f1c1d9442dfaea4f70a094349",
+   "sha256": "5136da9712c0e113236a2dd25f97f71aab0769f9b59aaa1b3b2608ab87ba50c8",
    "extent": {
     "across": [
      -1.6,
@@ -270,7 +270,36 @@
     "https://github.com/civ-clone/models-realistic-by",
     "https://sketchfab.com/3d-models/army-parachute-af52e08feebc4d94a244692212ac25bb"
    ],
-   "made": "generated soldier, rewrapped; the parachute, simplified, over him; the owner's colour on the parachute"
+   "made": "generated soldier, rewrapped; the parachute, simplified, over him; the owner's colour on the parachute; posed, his right hand on the SMG slung at his hip and his left on his riser",
+   "rigged": {
+    "file": "models/rigged/paratrooper.glb",
+    "sha256": "113b750764e84072a78c0af93b7e63d9e12f25b1be2fd3a5e8f3e1e8614404f9",
+    "clips": {
+     "idle": "idle",
+     "move": "move",
+     "fight": "fight",
+     "die": "die"
+    },
+    "shots": {
+     "fight": [
+      {
+       "at": 0.5,
+       "joint": "muzzle",
+       "kind": "bullet"
+      },
+      {
+       "at": 0.625,
+       "joint": "muzzle",
+       "kind": "bullet"
+      },
+      {
+       "at": 0.75,
+       "joint": "muzzle",
+       "kind": "bullet"
+      }
+     ]
+    }
+   }
   },
   "fanatic": {
    "file": "models/fanatic.glb",
