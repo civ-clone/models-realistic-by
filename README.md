@@ -20,7 +20,7 @@ civ.one's 3D map draws each type from one set.
   person, 2,500 for the Paratroopers with their parachute, 3,000 for a vehicle or gun, 2,500 for an aircraft or
   missile, 3,500 for a ship), and its colour baked into the texture. Each carries its credits in `asset.copyright`,
   and its credits, licence and what was done to it in `asset.extras`.
-- **Put together:** the Diplomat wears a top hat, the Paratroopers hang under a parachute and the Fanatics carry a
+- **Put together:** the Diplomat wears a top hat, the Paratroopers stand under a parachute and the Fanatics carry a
   torch, each from a model of its own. The Paratroopers' soldier I generated in Meshy (CC0, made with AI: an image
   from a text prompt with Google's Nano Banana, then a model from the image); the file is CC BY because of its
   parachute. The Paratroopers are one soldier under a canopy 3.2 m wide: draw them once, not as a squad, or the
@@ -75,12 +75,14 @@ civ.one's 3D map draws each type from one set.
   robe's hem and right heel, their back a few centimetres up, the torch on the ground beside them.
 
   The Paratroopers stay under their canopy. In `idle` (3 s) it sways a little either way above him as he looks up at
-  it now and then; in `move` (2.4 s) he and it swing to and fro, his legs loose. In `fight` (1.5 s, played once) he
+  it now and then; in `move` (2.4 s) he and it swing to and fro about his feet. In `fight` (1.5 s, played once) he
   braces and turns to his right (his chest, and the whole figure about his feet, canopy and all), so the SMG slung
-  across his belly points ahead, and fires a three-round burst from the hip (bullets, at 0.5, 0.625 and 0.75 s). His
-  SMG is part of him, not a prop of its own (his prop is the parachute), so its shots leave from a `muzzle` the rig
-  puts on his chest's joint at the barrel's end (on the gun his chest carries). In `die` (1.5 s) he's hit and goes
-  limp in the harness, his head falling forward, his arms dropping off the gun and riser and his knees giving.
+  across his belly points ahead, his head turned back to look where he fires, and fires a three-round burst from the
+  hip (bullets, at 0.5, 0.667 and 0.833 s, each held a frame before it kicks, as the Marines' are). His SMG is part of
+  him, not a prop of its own (his prop is the parachute), so its shots leave from a `muzzle` the rig puts on his
+  chest's joint at the barrel's end (on the gun his chest carries). In `die` (1.5 s) he's hit and goes limp in the
+  harness, his head falling forward, his arms dropping off the gun and riser and his knees giving, as his canopy tips
+  over to his left.
 - **Not yet:** the Fighter's markings are taken off, but some ships still carry painted names and numbers.
 - **`manifest.json`:** the set, as civ.one's library describes a set of models:
   - its licence, with the credit to show wherever it's used (`licence.attribution`), and its credits;

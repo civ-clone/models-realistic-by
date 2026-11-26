@@ -830,9 +830,7 @@
             "length": 2.4,
             "lag": {
               "neck": 0.1,
-              "head": 0.2,
-              "shin.L": 0.15,
-              "shin.R": 0.15
+              "head": 0.2
             },
             "keys": [
               {
@@ -845,32 +843,14 @@
                   ],
                   "about": [
                     0,
-                    1.0,
-                    0
+                    0,
+                    -0.075
                   ],
-                  "degrees": 4.0
+                  "degrees": 0
                 },
-                "aim": {
-                  "thigh.L": [
-                    0.07,
-                    -1,
-                    0.27
-                  ],
-                  "shin.L": [
-                    0.042,
-                    -1,
-                    -0.055
-                  ],
-                  "thigh.R": [
-                    -0.07,
-                    -1,
-                    0.17
-                  ],
-                  "shin.R": [
-                    -0.042,
-                    -1,
-                    -0.105
-                  ]
+                "plant": {
+                  "L": true,
+                  "R": true
                 }
               },
               {
@@ -883,31 +863,20 @@
                   ],
                   "about": [
                     0,
-                    1.0,
-                    0
+                    0,
+                    -0.075
                   ],
-                  "degrees": 0
+                  "degrees": 4.0
+                },
+                "plant": {
+                  "L": true,
+                  "R": true
                 },
                 "aim": {
-                  "thigh.L": [
-                    0.07,
-                    -1,
-                    0.15
-                  ],
-                  "shin.L": [
-                    0.042,
-                    -1,
-                    -0.15
-                  ],
-                  "thigh.R": [
-                    -0.07,
-                    -1,
-                    0.15
-                  ],
-                  "shin.R": [
-                    -0.042,
-                    -1,
-                    -0.15
+                  "head": [
+                    0,
+                    1,
+                    -0.05
                   ]
                 }
               },
@@ -921,36 +890,18 @@
                   ],
                   "about": [
                     0,
-                    1.0,
-                    0
+                    0,
+                    -0.075
                   ],
-                  "degrees": -4.0
+                  "degrees": 0
                 },
-                "aim": {
-                  "thigh.L": [
-                    0.07,
-                    -1,
-                    0.03
-                  ],
-                  "shin.L": [
-                    0.042,
-                    -1,
-                    -0.245
-                  ],
-                  "thigh.R": [
-                    -0.07,
-                    -1,
-                    0.13
-                  ],
-                  "shin.R": [
-                    -0.042,
-                    -1,
-                    -0.195
-                  ]
+                "plant": {
+                  "L": true,
+                  "R": true
                 }
               },
               {
-                "at": 1.7999999999999998,
+                "at": 1.8,
                 "turn": {
                   "axis": [
                     1,
@@ -959,31 +910,20 @@
                   ],
                   "about": [
                     0,
-                    1.0,
-                    0
+                    0,
+                    -0.075
                   ],
-                  "degrees": 0
+                  "degrees": -4.0
+                },
+                "plant": {
+                  "L": true,
+                  "R": true
                 },
                 "aim": {
-                  "thigh.L": [
-                    0.07,
-                    -1,
-                    0.15
-                  ],
-                  "shin.L": [
-                    0.042,
-                    -1,
-                    -0.15
-                  ],
-                  "thigh.R": [
-                    -0.07,
-                    -1,
-                    0.15
-                  ],
-                  "shin.R": [
-                    -0.042,
-                    -1,
-                    -0.15
+                  "head": [
+                    0,
+                    1,
+                    0.1
                   ]
                 }
               }
@@ -1002,12 +942,12 @@
                 "kind": "bullet"
               },
               {
-                "at": 0.625,
+                "at": 0.666667,
                 "joint": "muzzle",
                 "kind": "bullet"
               },
               {
-                "at": 0.75,
+                "at": 0.833333,
                 "joint": "muzzle",
                 "kind": "bullet"
               }
@@ -1032,7 +972,9 @@
                   "R": true
                 },
                 "twist": {
-                  "chest": -25.0
+                  "chest": -25.0,
+                  "neck": 25.0,
+                  "head": 30.0
                 },
                 "turn": {
                   "axis": [
@@ -1078,7 +1020,9 @@
                   "R": true
                 },
                 "twist": {
-                  "chest": -25.0
+                  "chest": -25.0,
+                  "neck": 25.0,
+                  "head": 30.0
                 },
                 "turn": {
                   "axis": [
@@ -1114,53 +1058,6 @@
               },
               {
                 "at": 0.541667,
-                "ease": "snap",
-                "hips": [
-                  0,
-                  -0.03,
-                  0.0
-                ],
-                "plant": {
-                  "L": true,
-                  "R": true
-                },
-                "twist": {
-                  "chest": -22.0
-                },
-                "turn": {
-                  "axis": [
-                    0,
-                    1,
-                    0
-                  ],
-                  "about": [
-                    0,
-                    0,
-                    -0.075
-                  ],
-                  "degrees": -30.0
-                },
-                "aim": {
-                  "spine": [
-                    0,
-                    1,
-                    0.05
-                  ],
-                  "chest": [
-                    0,
-                    1,
-                    0.02
-                  ],
-                  "upper_arm.L": null,
-                  "upper_arm.R": null,
-                  "forearm.L": null,
-                  "forearm.R": null,
-                  "hand.L": null,
-                  "hand.R": null
-                }
-              },
-              {
-                "at": 0.625,
                 "hips": [
                   0,
                   -0.03,
@@ -1171,7 +1068,9 @@
                   "R": true
                 },
                 "twist": {
-                  "chest": -25.0
+                  "chest": -25.0,
+                  "neck": 25.0,
+                  "head": 30.0
                 },
                 "turn": {
                   "axis": [
@@ -1196,6 +1095,55 @@
                     0,
                     1,
                     0.12
+                  ],
+                  "upper_arm.L": null,
+                  "upper_arm.R": null,
+                  "forearm.L": null,
+                  "forearm.R": null,
+                  "hand.L": null,
+                  "hand.R": null
+                }
+              },
+              {
+                "at": 0.583333,
+                "ease": "snap",
+                "hips": [
+                  0,
+                  -0.03,
+                  0.0
+                ],
+                "plant": {
+                  "L": true,
+                  "R": true
+                },
+                "twist": {
+                  "chest": -22.0,
+                  "neck": 25.0,
+                  "head": 30.0
+                },
+                "turn": {
+                  "axis": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "about": [
+                    0,
+                    0,
+                    -0.075
+                  ],
+                  "degrees": -30.0
+                },
+                "aim": {
+                  "spine": [
+                    0,
+                    1,
+                    0.05
+                  ],
+                  "chest": [
+                    0,
+                    1,
+                    0.02
                   ],
                   "upper_arm.L": null,
                   "upper_arm.R": null,
@@ -1207,53 +1155,6 @@
               },
               {
                 "at": 0.666667,
-                "ease": "snap",
-                "hips": [
-                  0,
-                  -0.03,
-                  0.0
-                ],
-                "plant": {
-                  "L": true,
-                  "R": true
-                },
-                "twist": {
-                  "chest": -22.0
-                },
-                "turn": {
-                  "axis": [
-                    0,
-                    1,
-                    0
-                  ],
-                  "about": [
-                    0,
-                    0,
-                    -0.075
-                  ],
-                  "degrees": -30.0
-                },
-                "aim": {
-                  "spine": [
-                    0,
-                    1,
-                    0.05
-                  ],
-                  "chest": [
-                    0,
-                    1,
-                    0.02
-                  ],
-                  "upper_arm.L": null,
-                  "upper_arm.R": null,
-                  "forearm.L": null,
-                  "forearm.R": null,
-                  "hand.L": null,
-                  "hand.R": null
-                }
-              },
-              {
-                "at": 0.75,
                 "hips": [
                   0,
                   -0.03,
@@ -1264,7 +1165,9 @@
                   "R": true
                 },
                 "twist": {
-                  "chest": -25.0
+                  "chest": -25.0,
+                  "neck": 25.0,
+                  "head": 30.0
                 },
                 "turn": {
                   "axis": [
@@ -1299,7 +1202,55 @@
                 }
               },
               {
-                "at": 0.791667,
+                "at": 0.708334,
+                "hips": [
+                  0,
+                  -0.03,
+                  0.01
+                ],
+                "plant": {
+                  "L": true,
+                  "R": true
+                },
+                "twist": {
+                  "chest": -25.0,
+                  "neck": 25.0,
+                  "head": 30.0
+                },
+                "turn": {
+                  "axis": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "about": [
+                    0,
+                    0,
+                    -0.075
+                  ],
+                  "degrees": -30.0
+                },
+                "aim": {
+                  "spine": [
+                    0,
+                    1,
+                    0.08
+                  ],
+                  "chest": [
+                    0,
+                    1,
+                    0.12
+                  ],
+                  "upper_arm.L": null,
+                  "upper_arm.R": null,
+                  "forearm.L": null,
+                  "forearm.R": null,
+                  "hand.L": null,
+                  "hand.R": null
+                }
+              },
+              {
+                "at": 0.75,
                 "ease": "snap",
                 "hips": [
                   0,
@@ -1311,7 +1262,9 @@
                   "R": true
                 },
                 "twist": {
-                  "chest": -22.0
+                  "chest": -22.0,
+                  "neck": 25.0,
+                  "head": 30.0
                 },
                 "turn": {
                   "axis": [
@@ -1346,7 +1299,7 @@
                 }
               },
               {
-                "at": 1.0,
+                "at": 0.833333,
                 "hips": [
                   0,
                   -0.03,
@@ -1357,7 +1310,154 @@
                   "R": true
                 },
                 "twist": {
-                  "chest": -25.0
+                  "chest": -25.0,
+                  "neck": 25.0,
+                  "head": 30.0
+                },
+                "turn": {
+                  "axis": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "about": [
+                    0,
+                    0,
+                    -0.075
+                  ],
+                  "degrees": -30.0
+                },
+                "aim": {
+                  "spine": [
+                    0,
+                    1,
+                    0.08
+                  ],
+                  "chest": [
+                    0,
+                    1,
+                    0.12
+                  ],
+                  "upper_arm.L": null,
+                  "upper_arm.R": null,
+                  "forearm.L": null,
+                  "forearm.R": null,
+                  "hand.L": null,
+                  "hand.R": null
+                }
+              },
+              {
+                "at": 0.875,
+                "hips": [
+                  0,
+                  -0.03,
+                  0.01
+                ],
+                "plant": {
+                  "L": true,
+                  "R": true
+                },
+                "twist": {
+                  "chest": -25.0,
+                  "neck": 25.0,
+                  "head": 30.0
+                },
+                "turn": {
+                  "axis": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "about": [
+                    0,
+                    0,
+                    -0.075
+                  ],
+                  "degrees": -30.0
+                },
+                "aim": {
+                  "spine": [
+                    0,
+                    1,
+                    0.08
+                  ],
+                  "chest": [
+                    0,
+                    1,
+                    0.12
+                  ],
+                  "upper_arm.L": null,
+                  "upper_arm.R": null,
+                  "forearm.L": null,
+                  "forearm.R": null,
+                  "hand.L": null,
+                  "hand.R": null
+                }
+              },
+              {
+                "at": 0.916666,
+                "ease": "snap",
+                "hips": [
+                  0,
+                  -0.03,
+                  0.0
+                ],
+                "plant": {
+                  "L": true,
+                  "R": true
+                },
+                "twist": {
+                  "chest": -22.0,
+                  "neck": 25.0,
+                  "head": 30.0
+                },
+                "turn": {
+                  "axis": [
+                    0,
+                    1,
+                    0
+                  ],
+                  "about": [
+                    0,
+                    0,
+                    -0.075
+                  ],
+                  "degrees": -30.0
+                },
+                "aim": {
+                  "spine": [
+                    0,
+                    1,
+                    0.05
+                  ],
+                  "chest": [
+                    0,
+                    1,
+                    0.02
+                  ],
+                  "upper_arm.L": null,
+                  "upper_arm.R": null,
+                  "forearm.L": null,
+                  "forearm.R": null,
+                  "hand.L": null,
+                  "hand.R": null
+                }
+              },
+              {
+                "at": 1.041667,
+                "hips": [
+                  0,
+                  -0.03,
+                  0.01
+                ],
+                "plant": {
+                  "L": true,
+                  "R": true
+                },
+                "twist": {
+                  "chest": -25.0,
+                  "neck": 25.0,
+                  "head": 30.0
                 },
                 "turn": {
                   "axis": [
@@ -1464,9 +1564,22 @@
                 "ease": "hit",
                 "hips": [
                   0,
-                  -0.1,
+                  -0.14,
                   0.03
                 ],
+                "turn": {
+                  "axis": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "about": [
+                    0,
+                    0,
+                    -0.075
+                  ],
+                  "degrees": -10.0
+                },
                 "late": {
                   "upper_arm.L": 0.08,
                   "forearm.L": 0.12,
@@ -1547,9 +1660,22 @@
                 "at": 0.875,
                 "hips": [
                   0,
-                  -0.09000000000000001,
+                  -0.13,
                   0.03
                 ],
+                "turn": {
+                  "axis": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "about": [
+                    0,
+                    0,
+                    -0.075
+                  ],
+                  "degrees": -18.0
+                },
                 "aim": {
                   "spine": [
                     0,
@@ -1623,9 +1749,22 @@
                 "at": 1.5,
                 "hips": [
                   0,
-                  -0.1,
+                  -0.14,
                   0.03
                 ],
+                "turn": {
+                  "axis": [
+                    0,
+                    0,
+                    1
+                  ],
+                  "about": [
+                    0,
+                    0,
+                    -0.075
+                  ],
+                  "degrees": -22.0
+                },
                 "aim": {
                   "spine": [
                     0,

@@ -273,7 +273,7 @@
    "made": "generated soldier, rewrapped; the parachute, simplified, over him; the owner's colour on the parachute; posed, his right hand on the SMG slung at his hip and his left on his riser",
    "rigged": {
     "file": "models/rigged/paratrooper.glb",
-    "sha256": "4e21493384085268b5033e3a0ef2fbee176b9252b7d3e2b59df9f06d5df92b37",
+    "sha256": "704495aae7dcafa200442d26212590918ef637fc974de764a1f21468f3abd855",
     "clips": {
      "idle": "idle",
      "move": "move",
@@ -288,12 +288,12 @@
        "kind": "bullet"
       },
       {
-       "at": 0.625,
+       "at": 0.666667,
        "joint": "muzzle",
        "kind": "bullet"
       },
       {
-       "at": 0.75,
+       "at": 0.833333,
        "joint": "muzzle",
        "kind": "bullet"
       }
