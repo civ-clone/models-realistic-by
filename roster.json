@@ -670,8 +670,9 @@
             ],
             "knuckles": 0.5,
             "radius": 0.045,
-            "curl": 240.0,
-            "together": 0.9
+            "curl": 180.0,
+            "together": 0.9,
+            "grip": 0.021
           },
           "L": {
             "palm": [

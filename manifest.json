@@ -274,15 +274,15 @@
   },
   "fanatic": {
    "file": "models/fanatic.glb",
-   "sha256": "b16113160626916f4075fb156f376ae2235c1e7ad8fbc62381e0e31b5e61740f",
+   "sha256": "f2ce3d72734c51861fb3a369578851bae4f8ba71e183b3eacab884674784742d",
    "extent": {
     "across": [
      -0.356,
      0.356
     ],
     "along": [
-     -0.279,
-     0.33
+     -0.273,
+     0.336
     ],
     "height": 1.8
    },
@@ -294,7 +294,7 @@
    "made": "simplified; the torch, simplified, put in his right hand; the owner's colour on the robe; posed, his hands curled, the right a fist round the torch held upright, the left at his side",
    "rigged": {
     "file": "models/rigged/fanatic.glb",
-    "sha256": "f083a9e6883e2ab0b11b614f636adf2a142ce2ab8f6e4aaeb2a7218cab8f3379",
+    "sha256": "e53eb74a44859738246c633f4c74f5e750264e9e742cf5219bdcc0fd0045a192",
     "clips": {
      "idle": "idle",
      "move": "move",

@@ -55,9 +55,9 @@ civ.one's 3D map draws each type from one set.
 
   A figure is posed by `tools/blender/stance.py`, as its `stance` in `roster.json` says: a skeleton fitted to it where
   it stands in the file, the way each bone should point, any pieces that move whole (the torch), and how a hand's
-  fingers curl (`fingers`: the Fanatics' right hand a fist, which holds the torch across its palm, and their left
-  curled, its fingers drawn together). Blender weights each point to the bones near it, and the file's points and
-  normals are moved; nothing else in it changes but a mark on the mesh (`extras.posed`).
+  fingers curl (`fingers`: the Fanatics' right hand a fist, which holds the torch across its palm, its fingers closed on
+  the shaft, and their left curled, its fingers drawn together). Blender weights each point to the bones near it, and
+  the file's points and normals are moved; nothing else in it changes but a mark on the mesh (`extras.posed`).
 - **Rigged and animated:** the Fanatics, besides the Diplomat's own skeleton and clips above. `tools/blender/rig.py`
   rigs a posed figure with its clips, as models-realistic-cc0's Partisans and riflemen are (a held weapon can be
   brought to the shoulder in both hands, and fire from its muzzle): as its `rig` in `roster.json` says, into
