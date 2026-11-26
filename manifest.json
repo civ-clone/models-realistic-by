@@ -253,7 +253,7 @@
   "paratrooper": {
    "file": "models/paratrooper.glb",
    "scale": 0.045,
-   "sha256": "5136da9712c0e113236a2dd25f97f71aab0769f9b59aaa1b3b2608ab87ba50c8",
+   "sha256": "cb2a15cd7de28c7b2c65f737b61b9be89e9698c9e6b028eb62c3b1998a387afd",
    "extent": {
     "across": [
      -1.6,
@@ -273,7 +273,7 @@
    "made": "generated soldier, rewrapped; the parachute, simplified, over him; the owner's colour on the parachute; posed, his right hand on the SMG slung at his hip and his left on his riser",
    "rigged": {
     "file": "models/rigged/paratrooper.glb",
-    "sha256": "113b750764e84072a78c0af93b7e63d9e12f25b1be2fd3a5e8f3e1e8614404f9",
+    "sha256": "4e21493384085268b5033e3a0ef2fbee176b9252b7d3e2b59df9f06d5df92b37",
     "clips": {
      "idle": "idle",
      "move": "move",

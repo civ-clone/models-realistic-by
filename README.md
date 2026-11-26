@@ -76,10 +76,11 @@ civ.one's 3D map draws each type from one set.
 
   The Paratroopers stay under their canopy. In `idle` (3 s) it sways a little either way above him as he looks up at
   it now and then; in `move` (2.4 s) he and it swing to and fro, his legs loose. In `fight` (1.5 s, played once) he
-  braces, turns the SMG slung across his belly to the front and fires a three-round burst from the hip (bullets, at
-  0.5, 0.625 and 0.75 s). His SMG is part of him, not a prop of its own (his prop is the parachute), so its shots
-  leave from a `muzzle` the rig puts on his chest's joint at the barrel's end. In `die` (1.5 s) he's hit and goes limp
-  in the harness, his head falling forward, his arms dropping off the gun and riser and his knees giving.
+  braces and turns to his right (his chest, and the whole figure about his feet, canopy and all), so the SMG slung
+  across his belly points ahead, and fires a three-round burst from the hip (bullets, at 0.5, 0.625 and 0.75 s). His
+  SMG is part of him, not a prop of its own (his prop is the parachute), so its shots leave from a `muzzle` the rig
+  puts on his chest's joint at the barrel's end (on the gun his chest carries). In `die` (1.5 s) he's hit and goes
+  limp in the harness, his head falling forward, his arms dropping off the gun and riser and his knees giving.
 - **Not yet:** the Fighter's markings are taken off, but some ships still carry painted names and numbers.
 - **`manifest.json`:** the set, as civ.one's library describes a set of models:
   - its licence, with the credit to show wherever it's used (`licence.attribution`), and its credits;
