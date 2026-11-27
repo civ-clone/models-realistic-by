@@ -75,7 +75,7 @@ civ.one's 3D map draws each type from one set.
   robe's hem and right heel, their back a few centimetres up, the torch on the ground beside them.
 
   The Paratroopers stay under their canopy. In `idle` (3 s) it sways a little either way above him as he looks up at
-  it now and then; in `move` (2.4 s) he and it swing to and fro about his feet. In `fight` (1.5 s, played once) he
+  it now and then; in `move` (1 s) he and it swing to and fro about his feet. In `fight` (1.5 s, played once) he
   braces and turns to his right (his chest, and the whole figure about his feet, canopy and all), so the SMG slung
   across his belly points ahead, his head turned back to look where he fires, and fires a three-round burst from the
   hip (bullets, at 0.5, 0.667 and 0.833 s, each held a frame before it kicks, as the Marines' are). His SMG is part of
