@@ -827,10 +827,10 @@
             ]
           },
           "move": {
-            "length": 1.0,
+            "length": 1,
             "lag": {
-              "neck": 0.1,
-              "head": 0.2
+              "neck": 0.04,
+              "head": 0.08
             },
             "keys": [
               {
